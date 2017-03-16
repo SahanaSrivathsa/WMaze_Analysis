@@ -8,7 +8,7 @@ import os
 """This module takes the Timestamp files of the rats"""
 
 
-rats = ['10281','10282']
+rats = ['10348']
 baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\"
 
 

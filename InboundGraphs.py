@@ -2,18 +2,14 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
+import sys
 
-"""
-(1) Change the list 'rats' to a list of all the rats that need data to be analyzed.
-(2) Change the int 'trialNum' to be the number of trials to analyze over.
-(3) Change the int 'movAvg' to be the moving average trial number. (A 10 trial moving average would be movAvg = 10)
-"""
 
-rats = ['10281','10282']
-trialNum = 645
-movAvg = 20
 
-def prep_data(rat):
+def execute(rat,trials,avg):
+    plot_results(rat,prep_data(rat,trials,avg),trials,avg)
+
+def prep_data(rat,trialNum,movAvg):
     baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\Processed Data\\" + rat + "\\"
     inboundCSV = baseDir + rat +"_Inbound.csv"
     with open(inboundCSV,'r') as ic:
@@ -32,7 +28,7 @@ def prep_data(rat):
         percentages.append(round(percent,3))
     return percentages
 
-def plot_results(rat,proportions):
+def plot_results(rat,proportions,trialNum,movAvg):
     baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\Processed Data\\" + rat + "\\"
     trials = range(movAvg,trialNum,movAvg)
 
@@ -48,8 +44,8 @@ def plot_results(rat,proportions):
     plt.close()
 
 
-for rat in rats:
-    plot_results(rat,prep_data(rat))
+if __name__ == '__main__':
+    execute()
 
 
 
