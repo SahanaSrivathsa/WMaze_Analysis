@@ -6,7 +6,7 @@ to run through the state space analysis.
 """
 
 
-rats = ['10348']
+rats = ['10354']
 baseDir = "/Users/adelekap/Documents/W-Maze Raw/"
 
 
