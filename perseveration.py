@@ -31,12 +31,12 @@ def timeseries(rat):
         data = [line.split(',') for line in lines]
         for row in data:
             if row[1] == 'Correct':
-                decisions.append(0)
-            if row[1] == 'Repeat Error':
-                decisions.append(0.3)
-            if row[1] == 'Inbound Error':
-                decisions.append(0.6)
-            if row[1] == 'Outbound Error':
                 decisions.append(1)
+            if row[1] == 'Repeat Error':
+                decisions.append(2)
+            if row[1] == 'Inbound Error':
+                decisions.append(3)
+            if row[1] == 'Outbound Error':
+                decisions.append(4)
     return decisions[:450]
 
