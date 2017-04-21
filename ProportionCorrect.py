@@ -1,5 +1,5 @@
 """
-This module takes the timestamp CSVs and creates
+This module takes the session Info CSVs and creates
 plots of proportion correct for young and old populations
 """
 import numpy as np
