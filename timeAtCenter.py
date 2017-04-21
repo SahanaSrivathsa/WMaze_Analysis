@@ -17,6 +17,8 @@ def avg(list):
     sum = 0
     for num in list:
         sum += num
+    if len(list) == 0:
+        return 0
     return sum/len(list)
 
 def convertTime(timeArray):
