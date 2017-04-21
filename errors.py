@@ -49,9 +49,6 @@ def percentInbound(rat):
             percent.append(0)
         else:
             percent.append(round((inboundErrors[i]/totalErrors[i]),2))
-    for per in percent:
-        if per > 1:
-            print ("oh no!")
     return percent
 
 def accumulateData(rats,mode):

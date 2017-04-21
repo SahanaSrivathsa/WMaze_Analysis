@@ -2,7 +2,7 @@
 This module takes the timestamp CSVs and creates
 plots of proportion correct for young and old populations
 """
-
+import numpy as np
 
 workingDir = "/Users/adelekap/Documents/BarnesLab/RawData/"
 
@@ -32,15 +32,23 @@ def percentCorrect(rat):
         if totalErrors[i] == 0:
             percent.append(0)
         else:
-            percent.append(round((totalCorrect[i]/totalErrors[i]),2))
+            percent.append(round(totalCorrect[i]/(totalCorrect[i]+totalErrors[i]),2))
     return percent
 
 
 def accumulateData(rats):
-
     data = [percentCorrect(rat) for rat in rats]
-
     return data
+
+
+def errorBars(rats):
+    data = accumulateData(rats)
+    STDVs = []
+    for session in range(len(data[0])): #CHANGE IF NOT JUST DOING 14 SESSIONS!
+        sessionData = [data[rat][session] for rat in range(len(data))]
+        STDVs.append(round(np.std(sessionData),2))
+    return STDVs
+
 
 def createProportionTrace(data):
     trace =[]

@@ -5,72 +5,65 @@ import plotly.graph_objs as go
 import ProportionCorrect as p
 
 
-youngInboundErrorTrace = p.createProportionTrace(p.accumulateData(p.youngRats))
-oldInboundErrorTrace = p.createProportionTrace(p.accumulateData(p.oldRats))
-youngOutboundErrorTrace = p.createProportionTrace(p.accumulateData(p.youngRats))
-oldOutboundErrorTrace = p.createProportionTrace(p.accumulateData(p.oldRats))
+youngErrorTrace = p.createProportionTrace(p.accumulateData(p.youngRats))
+oldErrorTrace = p.createProportionTrace(p.accumulateData(p.oldRats))
 
-youngInTrace = go.Scatter(
+youngError = p.errorBars(p.youngRats)
+oldError = p.errorBars(p.oldRats)
+
+
+youngTrace = go.Scatter(
     x = range(1,15),
-    y = youngInboundErrorTrace,
-    name = 'Young % Inbound Errors',
-    mode = 'lines',
+    y = youngErrorTrace,
+    name = 'Young',
+    mode = 'lines+markers',
     line = dict(
         color = ('rgba(255, 182, 193, .9)'),
-        width = 4,)
+        width = 4,),
+    error_y=dict(
+            type='data',
+            array=youngError,
+            color=('rgba(255, 182, 193, .9)'),
+            visible=True
+        )
 )
 
-youngOutTrace = go.Scatter(
+oldTrace = go.Scatter(
     x = range(1,15),
-    y = youngOutboundErrorTrace,
-    name = 'Young % Outbound Errors',
-    mode = 'lines',
-    line = dict(
-        color = ('rgba(255, 182, 193, .9)'),
-        width = 4,
-        dash = 'dot')
-)
-
-oldInTrace = go.Scatter(
-    x = range(1,15),
-    y = oldInboundErrorTrace,
-    name = 'Old % Inbound Errors',
-    mode = 'lines',
+    y = oldErrorTrace,
+    name = 'Old',
+    mode = 'lines+markers',
     line = dict(
         color = ('rgba(152, 0, 0, .8)'),
-        width = 4,)
+        width = 4,),
+    error_y=dict(
+            type='data',
+            array=oldError,
+            color=('rgba(152, 0, 0, .8)'),
+            visible=True
+        )
 )
 
-oldOutTrace = go.Scatter(
-    x = range(1,15),
-    y = oldOutboundErrorTrace,
-    name = 'Old % Outbound Errors',
-    mode = 'lines',
-    line = dict(
-        color = ('rgba(152, 0, 0, .8)'),
-        width = 4,
-        dash = 'dot')
-)
 
-data = [youngInTrace,youngOutTrace,oldInTrace,oldOutTrace]
+data = [youngTrace,oldTrace]
 
 layout = go.Layout(
-    title = 'Error Types Made Across Sessions',
+    title = 'Alternation Task Performance',
     xaxis=dict(
-            title = 'Session',
+            title = 'Exposure',
             range=[1, 14],
             autotick=False,
             dtick=1,
             ticks='outside'
         ),
     yaxis=dict(
-        title = 'Percent of Total Errors',
+        title = 'Proportion Correct',
         range=[0,1],
     )
 )
 
 fig = go.Figure(data=data, layout=layout)
 
-plot_url = py.plot(fig, filename = 'Errors')
+plot_url = py.plot(fig, filename = 'Proportion Correct')
 
 
