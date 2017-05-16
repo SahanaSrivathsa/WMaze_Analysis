@@ -17,12 +17,13 @@ To run this, give the script the following command line arguments:
 (2)The moving average trial number.
 """
 rats = (sys.argv[1]).split(',')
-baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\"
+# baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\"
+baseDir = '/Users/adelekap/Documents/BarnesLab/RawData/'
 
 def split_data(rat):
-    dataDir = baseDir + rat + "\\TimeStamps\\"
+    dataDir = baseDir + rat + "/TimeStamps/"
     files = os.listdir(dataDir)
-    newDir = baseDir + "Processed Data\\" + rat +"\\"
+    newDir = baseDir + "Processed Data/" + rat +"/"
     session = 1
     trial = 1
     type = 0  #inbound = 0 and outbound = 1
@@ -83,7 +84,7 @@ def split_data(rat):
 
 def Trials(rat):
     INlines = []
-    with open('{0}Processed Data\\{1}\\{1}_Inbound.csv'.format(baseDir,rat),'r') as inb:
+    with open('{0}Processed Data/{1}/{1}_Inbound.csv'.format(baseDir,rat),'r') as inb:
         INdata = inb.readlines()
     for timestamp in INdata:
         if timestamp != INdata[0]:
@@ -91,7 +92,7 @@ def Trials(rat):
     inboundTrials = int(INlines[len(INlines) - 1][1])
 
     OUTlines = []
-    with open('{0}Processed Data\\{1}\\{1}_Outbound.csv'.format(baseDir,rat),'r') as out:
+    with open('{0}Processed Data/{1}/{1}_Outbound.csv'.format(baseDir,rat),'r') as out:
         OUTdata = out.readlines()
     for timestamp in OUTdata:
         if timestamp != OUTdata[0]:

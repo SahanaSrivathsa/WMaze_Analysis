@@ -6,8 +6,8 @@ to run through the state space analysis.
 """
 
 
-rats = ['10354']
-baseDir = "/Users/adelekap/Documents/W-Maze Raw/"
+rats = ['10279','10282']
+baseDir = "/Users/adelekap/Documents/BarnesLab/RawData/"
 
 
 def get_data(rat):
@@ -34,8 +34,29 @@ def get_data(rat):
                 else:
                     c.write('0,')
 
+def get_datum(rat):
+    dataDir = baseDir + rat + "/TimeStamps/"
+    files = os.listdir(dataDir)
+    newDir = baseDir + rat + "Responses/"
+
+    if os.path.exists(newDir) == False:
+        os.mkdir(newDir)
+        print "Creating new Directory"
+    else:
+        print "Directory already exists!"
+    with open(newDir + str(rat) + "_combinedResponses.txt", 'w') as c:
+        for csv in files:
+            with open(dataDir + csv,'r') as f:
+                rows = f.readlines()
+            lines = []
+            for timestamp in rows:
+                if timestamp != rows[0]:
+                    lines.append(timestamp.split(','))
+            for line in lines:
+                c.write(line[0]+',')
+
 
 
 
 for rat in rats:
-    get_data(rat)
+    get_datum(rat)

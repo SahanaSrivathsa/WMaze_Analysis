@@ -30,8 +30,10 @@ for ov = 1:size(x,2)
  pr_samps = exp(mu+samps)./(1+exp(mu+samps));
  
  order_pr_samps = sort(pr_samps);
- p05(ov) = order_pr_samps(fix(0.05*num_samps ));
- p95(ov) = order_pr_samps(fix(0.95*num_samps ));
+ %p05(ov) = order_pr_samps(fix(0.05*num_samps ));
+ %p95(ov) = order_pr_samps(fix(0.95*num_samps ));
+ p05(ov) = order_pr_samps(fix(0.10*num_samps ));
+ p95(ov) = order_pr_samps(fix(0.90*num_samps ));
  pmid(ov) = order_pr_samps(fix(0.5*num_samps ));
  pcert(ov) = length(find(pr_samps>background_prob))/num_samps;
 end
