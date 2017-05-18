@@ -2,6 +2,7 @@ import seaborn as sns
 from df import *
 
 dataframe = create_dataframe('/Volumes/ls 1/BarnesLab/RawData')
+dataframe['Proportion Correct'] = dataframe['Correct']/dataframe['Total Feeder Visits']
 
 sns.set_style('whitegrid')
 
@@ -20,3 +21,12 @@ def plot_inbound_barplot():
 
 plot_outbound_barplot()
 plot_inbound_barplot()
+
+def plot_overall_barplot():
+    colors = ['#9658b7', '#3b8437']
+    sns.set_context(rc={"lines.linewidth": 0.75})
+    sns.barplot(x='Session', y='Proportion Correct', data=dataframe, hue='age', palette=colors, capsize=0.15)
+    sns.plt.title('Proportion Correct by Session', fontsize=16)
+    sns.plt.show()
+
+plot_overall_barplot()
