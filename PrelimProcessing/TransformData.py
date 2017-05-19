@@ -7,15 +7,20 @@ import os
 
 """This module takes the Timestamp files of the rats"""
 
+with open('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv', 'r') as rats:
+    lines = rats.readlines()
+rows = [line.split(',') for line in lines if line != lines[0]]
 
-rats = ['10348']
-baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\"
+rats = [row[0] for row in rows]
+
+# rats = ['10426','10425','10427','10422','10424','10281','10282','10351','10353','10354','10416','10348','10349','10279','10280']
+baseDir = "/Volumes/ls 1/BarnesLab/RawData/"
 
 
 def get_data(rat):
-    dataDir = baseDir + rat + "\\TimeStamps\\"
+    dataDir = baseDir + rat + "/TimeStamps/"
     files = os.listdir(dataDir)
-    newDir = baseDir + "Processed Data\\" + rat +"\\"
+    newDir = baseDir + "Processed Data/" + rat +"/"
     lines = []
     session = 1
     trial = 1
@@ -40,7 +45,7 @@ def get_data(rat):
             for line in lines:
                 if type == 1:
                     if line[1] == 'Correct':
-                        c.write(str(session) + "," + str(trial) + ",Out,1," + line[0] + "," + line[2])
+                        c.write( str(session) + "," + str(trial) + ",Out,1," + line[0] + "," + line[2])
                     else:
                         c.write(str(session) + "," + str(trial) + ",Out,0," + line[0] + "," + line[2])
                 else:
