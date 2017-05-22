@@ -8,10 +8,11 @@ import os
 """This module takes the Timestamp files of the rats"""
 
 with open('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv', 'r') as rats:
-    lines = rats.readlines()
-rows = [line.split(',') for line in lines if line != lines[0]]
+    lns = rats.readlines()
+rows = [line.split(',') for line in lns if line != lns[0]]
 
 rats = [row[0] for row in rows]
+rats.remove('10362')
 
 # rats = ['10426','10425','10427','10422','10424','10281','10282','10351','10353','10354','10416','10348','10349','10279','10280']
 baseDir = "/Volumes/ls 1/BarnesLab/RawData/"
@@ -19,9 +20,8 @@ baseDir = "/Volumes/ls 1/BarnesLab/RawData/"
 
 def get_data(rat):
     dataDir = baseDir + rat + "/TimeStamps/"
-    files = os.listdir(dataDir)
+    files = ['TimeStamps_{1}_Session{2}.csv'.format(baseDir,rat,session) for session in range(1,15)]
     newDir = baseDir + "Processed Data/" + rat +"/"
-    lines = []
     session = 1
     trial = 1
     type = 0  #inbound = 0 and outbound = 1
@@ -35,6 +35,7 @@ def get_data(rat):
         c.write("Session,Trial,Trial Type,Correct/Incorrect,Feeder #,Timestamp\n")
 
         for csv in files:
+            lines = []
             if session == 15:
                 break
             with open(dataDir + csv,'r') as f:
@@ -42,19 +43,19 @@ def get_data(rat):
             for timestamp in data:
                 if timestamp != data[0]:
                     lines.append(timestamp.split(','))
-            for line in lines:
+            for ln in lines:
                 if type == 1:
-                    if line[1] == 'Correct':
-                        c.write( str(session) + "," + str(trial) + ",Out,1," + line[0] + "," + line[2])
+                    if ln[1] == 'Correct':
+                        c.write(str(session) + "," + str(trial) + ",Out,1," + ln[0] + "," + ln[2])
                     else:
-                        c.write(str(session) + "," + str(trial) + ",Out,0," + line[0] + "," + line[2])
+                        c.write(str(session) + "," + str(trial) + ",Out,0," + ln[0] + "," + ln[2])
                 else:
-                    if line[1] == 'Correct':
-                        c.write(str(session) + "," + str(trial) + ",In,1," + line[0] + "," + line[2])
+                    if ln[1] == 'Correct':
+                        c.write(str(session) + "," + str(trial) + ",In,1," + ln[0] + "," + ln[2])
                     else:
-                        c.write(str(session) + "," + str(trial) + ",In,0," + line[0] + "," + line[2])
+                        c.write(str(session) + "," + str(trial) + ",In,0," + ln[0] + "," + ln[2])
                 trial += 1
-                if line[0] == '2':
+                if ln[0] == '2':
                     type = 1
                 else:
                     type = 0

@@ -8,10 +8,6 @@ def get_rats():
 
     oldRats = [row[0] for row in rows if int(row[1]) == 25]
     youngRats = [row[0] for row in rows if int(row[1]) == 10]
-
-    # oldRats = ['10426','10425','10427','10422','10424','10281','10282','10351','10353','10354']
-    # youngRats = ['10416','10348','10349','10279','10280']
-
     return (oldRats,youngRats)
 
 
@@ -62,7 +58,7 @@ def trial_type_dataframe(rawDataDir):
     old = pd.concat(oldDataframes)
     young = pd.concat(youngDataframes)
 
-    return pd.concat([old,young])
+    return pd.concat((old,young))
 
 
 

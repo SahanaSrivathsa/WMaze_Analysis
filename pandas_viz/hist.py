@@ -43,13 +43,17 @@ def plot_trialType_proportions(type):
     young = df[df['Age'] == 'Young']
     con = pd.concat([old,young])
 
-    sns.pointplot(x='Session', y='Correct/Incorrect',hue='Age',data=con,palette=colors,capsize=0.1)
+
+    sns.pointplot(x='Session', y='Correct/Incorrect',hue='Age',data=con,palette=colors,capsize=0.1,errwidth=1.5)
     sns.plt.ylim(0,1)
     sns.plt.title(title)
+    sns.plt.ylabel('Proportion Correct Outbound Decisions')
     sns.plt.show()
 
+plot_trialType_proportions('Inbound')
 plot_trialType_proportions('Outbound')
-plot_outbound_barplot()
+
+
 
 
 
