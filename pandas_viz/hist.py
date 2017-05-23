@@ -54,8 +54,28 @@ def plot_trialType_proportions(type):
     sns.plt.savefig('{0}Proportion.pdf'.format(type))
     sns.plt.show()
 
+def plot_overall_proportions():
+    colors = ['#9658b7', '#3b8437']
+    df = trialTypeDataframe
+    title = 'Task Performance Across Sessions'
+    old = df[df['Age'] == 'Old']
+    young = df[df['Age'] == 'Young']
+    con = pd.concat([old, young])
+
+    print 'Plotting data for {0} rats: {1} Young and {2} Old'.format(con['Rat'].nunique(),
+                                                                     con[con['Age'] == 'Young']['Rat'].nunique(),
+                                                                     con[con['Age'] == 'Old']['Rat'].nunique())
+    sns.pointplot(x='Session', y='Correct/Incorrect', hue='Age', data=con, palette=colors, capsize=0.1, errwidth=1.5)
+    sns.plt.ylim(0, 1)
+    sns.plt.title(title, fontsize=16)
+    sns.plt.ylabel('Proportion Correct', fontsize=12)
+    sns.plt.xlabel('Session', fontsize=12)
+    sns.plt.savefig('OverallPerformance.pdf')
+    sns.plt.show()
+
 plot_trialType_proportions('Inbound')
 plot_trialType_proportions('Outbound')
+plot_overall_proportions()
 
 
 
