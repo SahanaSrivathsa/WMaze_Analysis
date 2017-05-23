@@ -43,6 +43,7 @@ def plot_trialType_proportions(type):
     young = df[df['Age'] == 'Young']
     con = pd.concat([old,young])
 
+    print con['Rat'].nunique()
 
     sns.pointplot(x='Session', y='Correct/Incorrect',hue='Age',data=con,palette=colors,capsize=0.1,errwidth=1.5)
     sns.plt.ylim(0,1)
