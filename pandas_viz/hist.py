@@ -1,5 +1,6 @@
 import seaborn as sns
 from df import *
+import matplotlib.pyplot as plt
 
 dataframe = create_dataframe('/Volumes/ls 1/BarnesLab/RawData')
 dataframe['Proportion Correct'] = dataframe['Correct']/dataframe['Total Feeder Visits']
@@ -46,7 +47,8 @@ def plot_trialType_proportions(type):
     print 'Plotting data for {0} rats: {1} Young and {2} Old'.format(con['Rat'].nunique(),con[con['Age'] == 'Young']['Rat'].nunique(),
                                                                      con[con['Age'] == 'Old']['Rat'].nunique())
 
-    sns.pointplot(x='Session', y='Correct/Incorrect',hue='Age',data=con,palette=colors,capsize=0.1,errwidth=1.5)
+    ax = sns.pointplot(x='Session', y='Correct/Incorrect',hue='Age',data=con,palette=colors,capsize=0.1,errwidth=1.5)
+    plt.setp(ax.collections, sizes=[40])
     sns.plt.ylim(0,1)
     sns.plt.title(title,fontsize=16)
     sns.plt.ylabel('Proportion Correct {0} Decisions'.format(type),fontsize=12)
@@ -65,7 +67,8 @@ def plot_overall_proportions():
     print 'Plotting data for {0} rats: {1} Young and {2} Old'.format(con['Rat'].nunique(),
                                                                      con[con['Age'] == 'Young']['Rat'].nunique(),
                                                                      con[con['Age'] == 'Old']['Rat'].nunique())
-    sns.pointplot(x='Session', y='Correct/Incorrect', hue='Age', data=con, palette=colors, capsize=0.1, errwidth=1.5)
+    ax = sns.pointplot(x='Session', y='Correct/Incorrect', hue='Age', data=con, palette=colors, capsize=0.1, errwidth=1.5)
+    plt.setp(ax.collections, sizes=[40])
     sns.plt.ylim(0, 1)
     sns.plt.title(title, fontsize=16)
     sns.plt.ylabel('Proportion Correct', fontsize=12)
