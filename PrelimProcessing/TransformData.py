@@ -13,8 +13,6 @@ rows = [line.split(',') for line in lns if line != lns[0]]
 
 rats = [row[0] for row in rows]
 rats.remove('10362')
-
-# rats = ['10426','10425','10427','10422','10424','10281','10282','10351','10353','10354','10416','10348','10349','10279','10280']
 baseDir = "/Volumes/ls 1/BarnesLab/RawData/"
 
 
