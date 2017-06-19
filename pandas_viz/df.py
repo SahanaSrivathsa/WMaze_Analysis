@@ -34,7 +34,7 @@ def updateDF(df,rat,age):
     df['Rat'] = rat
     df['Age'] = age
 
-
+       
 def trial_type_dataframe(rawDataDir):
     oldRats,youngRats = get_rats()
 
