@@ -92,14 +92,15 @@ def main(group, fig_no, savetrace):
 
     if group == 'young':
         fig_no = 1
+        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/youngData.csv').ix[:,1:100]
     else:
         fig_no = 2
+        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/oldData.csv').ix[:,1:100]
 
-    data_numAll = pd.read_csv('/Volumes/TRANS 1/datanew.csv')
-    data_numAll = data_numAll.ix[:11,1:100]
+    # data_numAll = pd.read_csv('/Volumes/TRANS 1/datanew.csv')
+    # data_numAll = data_numAll.ix[:11,1:100]
 
-    ratNums = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv')
-    
+
 
     ct = -1
 
@@ -199,24 +200,24 @@ if __name__ == "__main__":
     savetrace = {}
     p_sevo   = main('young', 1, savetrace)
     p_oxyg   = main('old', 2, savetrace)
-    #
-    # p_bigger = p_sevo-p_oxyg
-    # prop_higher = pd.DataFrame()
-    # for t in range(p_bigger.shape[1]):
-    #     prop_higher.set_value(t,'prop', (p_bigger[:,t]>0).sum()/float(p_bigger.shape[0]))
-    #
-    # r1 = np.reshape(p_sevo, (1, p_sevo.shape[0]*p_sevo.shape[1]))
-    # r2 = np.reshape(p_oxyg, (1, p_oxyg.shape[0]*p_oxyg.shape[1]))
-    #
-    # overall = ((r1-r2)>0).sum()/float(r1.shape[1])
-    #
-    # print 'overall ', overall
-    # plt.figure(20)
-    # plt.plot(prop_higher, lw = 2)
-    # plt.title('Pr(Sevo > Oxygen)')
-    # plt.ylabel('Certainty')
-    # plt.xlabel('Trial')
-    # plt.axhline(0.95)
-    # plt.savefig('PrDiff.png')
+
+    p_bigger = p_sevo-p_oxyg
+    prop_higher = pd.DataFrame()
+    for t in range(p_bigger.shape[1]):
+        prop_higher.set_value(t,'prop', (p_bigger[:,t]>0).sum()/float(p_bigger.shape[0]))
+
+    r1 = np.reshape(p_sevo, (1, p_sevo.shape[0]*p_sevo.shape[1]))
+    r2 = np.reshape(p_oxyg, (1, p_oxyg.shape[0]*p_oxyg.shape[1]))
+
+    overall = ((r1-r2)>0).sum()/float(r1.shape[1])
+
+    print 'overall ', overall
+    plt.figure(20)
+    plt.plot(prop_higher, lw = 2)
+    plt.title('Pr(Young > Old)')
+    plt.ylabel('Certainty')
+    plt.xlabel('Trial')
+    plt.axhline(0.95)
+    plt.savefig('PrDiff.png')
 
 

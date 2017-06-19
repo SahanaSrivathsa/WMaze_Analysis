@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WMaze_Analysis.iml" afterPath="$PROJECT_DIR$/.idea/WMaze_Analysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pandas_viz/df.py" afterPath="$PROJECT_DIR$/pandas_viz/df.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/PrDiff.png" afterPath="$PROJECT_DIR$/PythonGroup/PrDiff.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/old3.png" afterPath="$PROJECT_DIR$/PythonGroup/old3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/traceold.png" afterPath="$PROJECT_DIR$/PythonGroup/traceold.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/runBothv2.py" afterPath="$PROJECT_DIR$/PythonGroup/runBothv2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pandas_viz/rats.csv" afterPath="$PROJECT_DIR$/pandas_viz/rats.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +28,9 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$overallDecisions.coverage" NAME="overallDecisions Coverage Results" MODIFIED="1493524285816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphTimeAtCenter.coverage" NAME="graphTimeAtCenter Coverage Results" MODIFIED="1492738044401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphYoungTimes.coverage" NAME="graphYoungTimes Coverage Results" MODIFIED="1492738617198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAges.coverage" NAME="splitAges Coverage Results" MODIFIED="1497902095299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphProportions.coverage" NAME="graphProportions Coverage Results" MODIFIED="1492734239424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497899944476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497902131067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData.coverage" NAME="SplitData Coverage Results" MODIFIED="1493314171310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphOldTimes.coverage" NAME="graphOldTimes Coverage Results" MODIFIED="1492738599092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphErrorPercents.coverage" NAME="graphErrorPercents Coverage Results" MODIFIED="1492728651459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -55,10 +57,22 @@
       <file leaf-file-name="runBothv2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonGroup/runBothv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="101" column="4" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+            <state relative-caret-position="195">
+              <caret line="97" column="19" lean-forward="false" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
               <folding>
                 <element signature="e#2#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="splitAges.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonGroup/splitAges.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,18 +94,6 @@
             <state relative-caret-position="120">
               <caret line="99" column="96" lean-forward="false" selection-start-line="99" selection-start-column="96" selection-end-line="99" selection-end-column="96" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changeData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonGroup/changeData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +138,7 @@
       <find>lines</find>
       <find>p8</find>
       <find>plot_results</find>
+      <find>data_numALL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,6 +175,7 @@
         <option value="$PROJECT_DIR$/pandas_viz/df.py" />
         <option value="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" />
         <option value="$PROJECT_DIR$/PythonGroup/changeData.py" />
+        <option value="$PROJECT_DIR$/PythonGroup/splitAges.py" />
         <option value="$PROJECT_DIR$/PythonGroup/runBothv2.py" />
       </list>
     </option>
@@ -236,24 +240,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="spread" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_viz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WMaze_Analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_viz/spread.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="TransformData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,6 +290,24 @@
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/runBothv2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="splitAges" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGroup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WMaze_Analysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/splitAges.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -524,18 +528,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.hist" />
-      <item index="1" class="java.lang.String" itemvalue="Python.spread" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TransformData" />
-      <item index="3" class="java.lang.String" itemvalue="Python.changeData" />
-      <item index="4" class="java.lang.String" itemvalue="Python.runBothv2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TransformData" />
+      <item index="2" class="java.lang.String" itemvalue="Python.changeData" />
+      <item index="3" class="java.lang.String" itemvalue="Python.runBothv2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.splitAges" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.runBothv2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.changeData" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hist" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TransformData" />
-        <item index="4" class="java.lang.String" itemvalue="Python.spread" />
+        <item index="1" class="java.lang.String" itemvalue="Python.splitAges" />
+        <item index="2" class="java.lang.String" itemvalue="Python.changeData" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hist" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TransformData" />
       </list>
     </recent_temporary>
   </component>
@@ -634,12 +638,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="78" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/decisions.py" />
     <entry file="file://$PROJECT_DIR$/InboundGraphs.py" />
     <entry file="file://$PROJECT_DIR$/OutboundGraphs.py" />
     <entry file="file://$PROJECT_DIR$/heatmapDatetime.py" />
@@ -778,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/changeData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/matplotlib-override/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
@@ -796,10 +789,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGroup/changeData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGroup/splitAges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonGroup/runBothv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="101" column="4" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+        <state relative-caret-position="195">
+          <caret line="97" column="19" lean-forward="false" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
           <folding>
             <element signature="e#2#33#0" expanded="true" />
           </folding>
