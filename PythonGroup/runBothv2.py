@@ -92,15 +92,10 @@ def main(group, fig_no, savetrace):
 
     if group == 'young':
         fig_no = 1
-        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/youngData.csv').ix[:,1:100]
+        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/youngData.csv').ix[:,1:625]
     else:
         fig_no = 2
-        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/oldData.csv').ix[:,1:100]
-
-    # data_numAll = pd.read_csv('/Volumes/TRANS 1/datanew.csv')
-    # data_numAll = data_numAll.ix[:11,1:100]
-
-
+        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/oldData.csv').ix[:,1:625]
 
     ct = -1
 
