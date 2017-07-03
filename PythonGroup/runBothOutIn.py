@@ -77,7 +77,7 @@ def plot_results( data, fit, fig_no, sub_no, group):
     plt.ylim(0, 1.05)
     # plt.xlim(0,len(data_num)+0.25)
     plt.tight_layout()
-    plt.savefig('Outbound'+group + str(fig_no) + '.png')
+    plt.savefig('Inbound'+group + str(fig_no) + '.png')
     return learning_trial
 
 
@@ -86,20 +86,20 @@ def plot_results( data, fit, fig_no, sub_no, group):
 def main(group, fig_no, savetrace):
     if group == 'young':
         fig_no = 1
-        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/outYoung.csv').ix[:,1:300]
+        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/inYoung.csv').ix[:,1:350]
     else:
         fig_no = 2
-        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/outOld.csv').ix[:,1:300]
+        data_numAll = pd.read_csv('/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/inOld.csv').ix[:,1:350]
 
     ct = -1
 
     with pm.Model() as model_old:
 
         # sigma   = pm.Exponential('sigma',  1, testval=.1)
-        sigma = pm.Uniform('sigma', 0.02, 0.5)
+        sigma = pm.Uniform('sigma', 0.05, 0.18)
 
         # sigmab  = pm.Exponential('sigmab', 1, testval=.1)
-        sigmab = pm.Uniform('sigmab', 0.01, 0.7)
+        sigmab = pm.Uniform('sigmab', 0.4, 0.9)
 
         beta_0 = pm.Normal('beta_0', 0., sd=sigmab, shape=len(data_numAll))
 
@@ -145,7 +145,7 @@ def main(group, fig_no, savetrace):
 
     plt.figure(50)
     fig = pm.traceplot(trace1, varnames=['sigmab', 'beta_0', 'sigma'])
-    plt.savefig('Outboundtrace' + group + '.png')
+    plt.savefig('Inboundtrace' + group + '.png')
 
     # pm.summary(trace1,[p,beta_0])
     # pm.gelman_rubin(trace1)
@@ -203,8 +203,8 @@ if __name__ == "__main__":
     plt.plot(prop_higher, lw=2)
     plt.title('Pr(Young > Old)')
     plt.ylabel('Certainty')
-    plt.xlabel('Outbound Trial')
+    plt.xlabel('Inbound Trial')
     plt.axhline(0.95)
-    plt.savefig('PrDiffOutbound.png')
+    plt.savefig('PrDiffInbound.png')
 
 
