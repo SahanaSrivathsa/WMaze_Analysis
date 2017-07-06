@@ -12,9 +12,7 @@ import sys
 """
 Random effects state space model
 Anne Smith, April, 2017
-: run the code in the terminal window with
-: "python runBoth.py"
-: requires package: pymc3
+Edits - Adele Kapellusch, July 2017
 """
 
 
@@ -31,8 +29,7 @@ matplotlib.rc('font', **font)
 
 
 def plot_results(data_numAll, data_denom, fit, fig_no, sub_no, group):
-    data1 = data_numAll / data_denom
-    data = data1.copy().ix[:,1:]
+    data = data_numAll / data_denom
 
     if group == 'Young':
         color = '#0073dd'
@@ -42,20 +39,15 @@ def plot_results(data_numAll, data_denom, fit, fig_no, sub_no, group):
         color = 'orange'
         dcolor = '#7f4b05'
         yv = 0.1
+
     plt.figure(fig_no)
+
     if fig_no < 3:
         plt.subplot(4, 3, sub_no)
-        t = range(data.shape[1])
-        d = data[sub_no - 1:sub_no].values.transpose()
-        # plt.plot(t, d, 'darkgray', lw='0.001', marker='o',label='correct trials',markersize=3)
-        plt.plot(t, data[sub_no - 1:sub_no].transpose().rolling(5, center=True).mean(), color=dcolor, lw=2, \
-                 linestyle=':', label='MA(5)', markersize=3)
 
     else:
         plt.subplot(1, 1, 1)
-        t = range(data.shape[1])
-        plt.plot(data.mean().rolling(5, center=True).mean(), color=dcolor, linestyle=':', \
-                 lw=2, label='MA(5)')
+
 
     plt.fill_between(np.arange(fit.shape[1]), fit[0, :], fit[2, :],
                      facecolor=color, alpha=0.5)
@@ -66,7 +58,6 @@ def plot_results(data_numAll, data_denom, fit, fig_no, sub_no, group):
 
     plt.axhline(0.5, color='red', linestyle='-', label='chance = 0.5')
 
-    # print fit[0,:]>0.5)
     last_time_below_threshold = np.where(fit[0, :] < 0.5)[-1]
     if not last_time_below_threshold.any():  # always above
         learning_trial = 1
@@ -78,9 +69,8 @@ def plot_results(data_numAll, data_denom, fit, fig_no, sub_no, group):
     plt.legend(loc='lower right', prop={'size': 4})
     plt.text(300, yv, group + ' learning trial  ' + str(learning_trial))
     plt.ylim(0, 1.05)
-    # plt.xlim(0,len(data_num)+0.25)
     plt.tight_layout()
-    plt.savefig(group + str(fig_no) + '.png')
+    plt.savefig(group + str(fig_no) + '.pdf')
     return learning_trial
 
 
@@ -93,29 +83,15 @@ def main(group, fig_no):
         fig_no = 2
 
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
-    data_denom = pd.read_csv(dir + 'outbound' + group + 'Denom.csv').ix[:,:]  # csv of total trials for each day
-    data_numAll = pd.read_csv(dir + 'outbound' + group + 'Num.csv').ix[:,:]  # correct per day
+    data_denom = pd.read_csv(dir + 'overall' + group + 'Denom.csv').ix[:,:]  # csv of total trials for each day
+    data_numAll = pd.read_csv(dir + 'overall' + group + 'Num.csv').ix[:,:]  # correct per day
 
-
-    data_denom.to_csv('DENOM.csv')
-    data_numAll.to_csv('COR.csv')
-    numberofRats = 12
-    ct = -1
 
     with pm.Model() as model_old:
-
-        # sigma   = pm.Exponential('sigma',  1, testval=.1)
-        # if group == 'Young':
-        #     sigma = pm.Uniform('sigma', 0.395, 0.41)
-        #     sigmab = pm.Uniform('sigmab', 0.4, 1.6)
-        # else:
-        #     sigma = pm.Uniform('sigma', 0.4, 0.5)
-        #     sigmab = pm.Uniform('sigmab', 0.1, 0.8)
-        sigma = pm.Uniform('sigma', 0.6, 0.9)
-        sigmab = pm.Uniform('sigmab', 0.1, 0.7)
+        sigma = pm.Uniform('sigma', 0.1, 0.8)
+        sigmab = pm.Uniform('sigmab', 0.1, 0.8)
 
         betaPop0 = pm.Normal('betaPop0', mu=0, sd=100)
-
         beta_0 = pm.Normal('beta_0', mu=betaPop0, sd=sigmab, shape=len(data_numAll))
 
         x = GaussianRandomWalk('x', sd=sigma, init=pm.Normal.dist(mu=0.0, sd=0.01), shape=data_numAll.shape[1])
@@ -148,9 +124,6 @@ def main(group, fig_no):
         n11 = pm.Binomial('n11', p=p11, n=np.asarray(data_denom[11:12]), observed=np.asarray(data_numAll[11:12]))
         #n12 = pm.Binomial('n12', p=p12, n=np.asarray(data_denom[12:13]), observed=np.asarray(data_numAll[12:13]))
 
-    # with model_old:
-    #     start = pm.find_MAP(vars=[x], fmin=optimize.fmin_l_bfgs_b)
-
 
     with model_old:
         step1 = pm.NUTS(vars=[x, sigmab, beta_0], gamma=.25)
@@ -162,10 +135,8 @@ def main(group, fig_no):
 
     plt.figure(50)
     fig = pm.traceplot(trace1, varnames=['sigmab', 'beta_0', 'sigma'])
-    plt.savefig('trace' + group + '.png')
+    plt.savefig('trace' + group + '.pdf')
 
-    # pm.summary(trace1,[p,beta_0])
-    # pm.gelman_rubin(trace1)
     lt1 = {}
     for ii in range(len(data_numAll)):
         lc = 'p' + str(ii)
@@ -213,4 +184,4 @@ if __name__ == "__main__":
     plt.ylabel('Certainty')
     plt.xlabel('Session')
     plt.axhline(0.95)
-    plt.savefig('PrDiffBIN.png')
+    plt.savefig('PrDiffBIN.pdf')

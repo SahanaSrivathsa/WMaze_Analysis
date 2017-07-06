@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundComparisonBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundIndivOldBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundIndivYoungBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundPrDiffBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundTraceOldBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundTraceYoungBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/groupdata_bysession.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/groupdata_bytrial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/loadData.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/oxyg_denom.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/oxyg_num.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/sevo_denom.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/MATLAB/sevo_num.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundComparisonBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundIndivOldBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundIndivYoungBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundPrDiffBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundTraceOldBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundTraceYoungBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallComparisonBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallIndivOldBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallIndivYoungBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallPrDiffBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallTraceOldBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallTraceYoungBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/PrDiffBIN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OutboundLearning/OutboundIndivYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OutboundLearning/OutboundYoung.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/COR.csv" afterPath="$PROJECT_DIR$/PythonGroup/BySession/COR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/DENOM.csv" afterPath="$PROJECT_DIR$/PythonGroup/BySession/DENOM.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +67,7 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV.coverage" NAME="createPropCSV Coverage Results" MODIFIED="1499120013650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphYoungTimes.coverage" NAME="graphYoungTimes Coverage Results" MODIFIED="1492738617198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAges.coverage" NAME="splitAges Coverage Results" MODIFIED="1497902095299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothBin.coverage" NAME="runBothBin Coverage Results" MODIFIED="1499293565933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothBin.coverage" NAME="runBothBin Coverage Results" MODIFIED="1499367343662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAgesOutIn.coverage" NAME="splitAgesOutIn Coverage Results" MODIFIED="1497912550278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497907496301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothOutIn.coverage" NAME="runBothOutIn Coverage Results" MODIFIED="1497991297688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
@@ -59,8 +94,8 @@
       <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -102,6 +137,7 @@
       <find>plot_results</find>
       <find>.png</find>
       <find>1</find>
+      <find>png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -610,11 +646,6 @@
           <line>14</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -838,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="455">
+          <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
