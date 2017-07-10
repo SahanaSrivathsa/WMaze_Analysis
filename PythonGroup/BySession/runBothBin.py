@@ -2,11 +2,9 @@ import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
 import pandas as pd
-from   pymc3.distributions.timeseries import GaussianRandomWalk
-from   pylab import rcParams
+from pymc3.distributions.timeseries import GaussianRandomWalk
+from pylab import rcParams
 import pymc3 as pm
-from   scipy.sparse import csc_matrix
-from   scipy import optimize
 import sys
 
 """
@@ -74,15 +72,15 @@ def plot_results(fit, fig_no, sub_no, group):
 
 ###main code----------------------------------------------------
 
-def main(group):
+def main(group,anType):
     if group == 'Young':
         fig_no = 1
     else:
         fig_no = 2
 
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
-    data_denom = pd.read_csv(dir + 'overall' + group + 'Denom.csv').ix[:,:]  # csv of total trials for each day
-    data_numAll = pd.read_csv(dir + 'overall' + group + 'Num.csv').ix[:,:]  # correct per day
+    data_denom = pd.read_csv(dir + anType + group + 'Denom.csv').ix[:,:]  # csv of total trials for each day
+    data_numAll = pd.read_csv(dir + anType + group + 'Num.csv').ix[:,:]  # correct per day
 
     numAnimals = len(data_numAll)
 
@@ -137,14 +135,16 @@ plots stuff
 """
 
 if __name__ == "__main__":
-
-    if len(sys.argv) != 1:
-        print 'usage: runBothBin.py'
-        sys.exit(1)
+    """
+    COMMAND LINE ARGUMENTS:
+    (1) Analysis Type: {"-overall" , "-inbound" , "-outbound"}
+    """
+    args = sys.argv[1:]
+    anType = args[0][1:]
 
     plt.close('all')
-    p_sevo = main('Young')
-    p_oxyg = main('Old')
+    p_sevo = main('Young',anType)
+    p_oxyg = main('Old',anType)
 
     p_bigger = p_sevo - p_oxyg
     prop_higher = pd.DataFrame()
@@ -163,4 +163,4 @@ if __name__ == "__main__":
     plt.ylabel('Certainty')
     plt.xlabel('Session')
     plt.axhline(0.95)
-    plt.savefig('PrDiffBIN.pdf')
+    plt.savefig(anType + 'PrDiffBIN.pdf')
