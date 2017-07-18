@@ -136,11 +136,9 @@ plots stuff
 
 if __name__ == "__main__":
     """
-    COMMAND LINE ARGUMENTS:
-    (1) Analysis Type: {"-overall" , "-inbound" , "-outbound"}
+    anType = Analysis Type {"overall", "inbound", "outbound"
     """
-    args = sys.argv[1:]
-    anType = args[0][1:]
+    anType = "outbound"
 
     plt.close('all')
     p_sevo = main('Young',anType)
