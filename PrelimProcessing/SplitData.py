@@ -18,7 +18,7 @@ To run this, give the script the following command line arguments:
 """
 rats = (sys.argv[1]).split(',')
 # baseDir = "C:\\Users\\akoutia\\Documents\\Barnes Lab\\Wmaze\RatData\\"
-baseDir = '/Users/adelekap/Documents/BarnesLab/RawData/'
+baseDir = '/Volumes/TRANS 1/BarnesLab/RawData/'
 
 def split_data(rat):
     dataDir = baseDir + rat + "/TimeStamps/"

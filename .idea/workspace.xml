@@ -2,13 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old2.pdf" afterPath="$PROJECT_DIR$/PythonGroup/BySession/Old2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old3.pdf" afterPath="$PROJECT_DIR$/PythonGroup/BySession/Old3.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young1.pdf" afterPath="$PROJECT_DIR$/PythonGroup/BySession/Young1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young3.pdf" afterPath="$PROJECT_DIR$/PythonGroup/BySession/Young3.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceOld.pdf" afterPath="$PROJECT_DIR$/PythonGroup/BySession/traceOld.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceYoung.pdf" afterPath="$PROJECT_DIR$/PythonGroup/BySession/traceYoung.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/COR.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/DENOM.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundComparisonBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundIndivOldBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundIndivYoungBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundTraceOldBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundTraceYoungBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundComparisonBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundIndivOldBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundPrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundTraceOldBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallComparisonBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallIndivOldBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallIndivYoungBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallPrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallTraceOldBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallTraceYoungBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/PrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/createPropCSV.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/inboundPrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/outboundPrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceOld.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceYoung.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundComparison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundIndivOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundIndivYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/PrDiffInbound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundold2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundold3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundtraceold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundtraceyoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundyoung1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundyoung3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundold2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundold3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundtraceold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundyoung3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallComparison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallIndivOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallindivYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/PrDiffInbound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/PrDiffOutbound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/PopTogether.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/PrDiff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/glme1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/groupdata_POCDproject.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/oxyg.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/oxyg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/sevo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/sevo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/traceoxyg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/tracesevo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/changeData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/runBoth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/runBothOutIn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/runBothv2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/splitAges.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/splitOutandIn.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py" afterPath="$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" afterPath="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/SplitData.py" afterPath="$PROJECT_DIR$/PrelimProcessing/SplitData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" afterPath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pandas_viz/rats.csv" afterPath="$PROJECT_DIR$/pandas_viz/rats.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,25 +91,28 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$hist.coverage" NAME="hist Coverage Results" MODIFIED="1497046040074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_viz" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$timeAtCenter.coverage" NAME="timeAtCenter Coverage Results" MODIFIED="1492737626947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$overallDecisions.coverage" NAME="overallDecisions Coverage Results" MODIFIED="1493524285816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV__1_.coverage" NAME="createPropCSV (1) Coverage Results" MODIFIED="1500922604519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphProportions.coverage" NAME="graphProportions Coverage Results" MODIFIED="1492734239424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData.coverage" NAME="SplitData Coverage Results" MODIFIED="1493314171310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphOldTimes.coverage" NAME="graphOldTimes Coverage Results" MODIFIED="1492738599092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$TransformData.coverage" NAME="TransformData Coverage Results" MODIFIED="1497045902904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$splitInOut.coverage" NAME="splitInOut Coverage Results" MODIFIED="1500922272920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$TransformData.coverage" NAME="TransformData Coverage Results" MODIFIED="1500922450793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$spread.coverage" NAME="spread Coverage Results" MODIFIED="1495061966928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_viz" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$changeData.coverage" NAME="changeData Coverage Results" MODIFIED="1497896753950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$splitOutandIn.coverage" NAME="splitOutandIn Coverage Results" MODIFIED="1499108446299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$splitOutandIn.coverage" NAME="splitOutandIn Coverage Results" MODIFIED="1500922521827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$heatmapDatetime.coverage" NAME="heatmapDatetime Coverage Results" MODIFIED="1492797695610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$df.coverage" NAME="df Coverage Results" MODIFIED="1494973076263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataFrames" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$fixNewCSVs.coverage" NAME="fixNewCSVs Coverage Results" MODIFIED="1492726273512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphTimeAtCenterCorrect.coverage" NAME="graphTimeAtCenterCorrect Coverage Results" MODIFIED="1492738084788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphTimeAtCenter.coverage" NAME="graphTimeAtCenter Coverage Results" MODIFIED="1492738044401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV.coverage" NAME="createPropCSV Coverage Results" MODIFIED="1499120013650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV.coverage" NAME="createPropCSV Coverage Results" MODIFIED="1500921395383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphYoungTimes.coverage" NAME="graphYoungTimes Coverage Results" MODIFIED="1492738617198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAges.coverage" NAME="splitAges Coverage Results" MODIFIED="1497902095299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothBin.coverage" NAME="runBothBin Coverage Results" MODIFIED="1499727764750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAgesOutIn.coverage" NAME="splitAgesOutIn Coverage Results" MODIFIED="1497912550278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothBin.coverage" NAME="SplitData Coverage Results" MODIFIED="1500920784025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAgesOutIn.coverage" NAME="splitAgesOutIn Coverage Results" MODIFIED="1500921607177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497907496301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothOutIn.coverage" NAME="runBothOutIn Coverage Results" MODIFIED="1497991297688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData__1_.coverage" NAME="SplitData (1) Coverage Results" MODIFIED="1500921111568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphErrorPercents.coverage" NAME="graphErrorPercents Coverage Results" MODIFIED="1492728651459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$combinePerformance.coverage" NAME="combinePerformance Coverage Results" MODIFIED="1493791858650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$decisions.coverage" NAME="decisions Coverage Results" MODIFIED="1493739416273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -51,24 +123,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runBothv2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonGroup/runBothv2.py">
+      <file leaf-file-name="createPropCSV.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +165,8 @@
       <find>Trial</find>
       <find>Session</find>
       <find>.png</find>
-      <find>1</find>
       <find>png</find>
+      <find>1</find>
       <find>plot_results</find>
     </findStrings>
   </component>
@@ -139,7 +199,6 @@
         <option value="$PROJECT_DIR$/DataFrames/rats.csv" />
         <option value="$PROJECT_DIR$/DataFrames/df.py" />
         <option value="$PROJECT_DIR$/pandas_viz/spread.py" />
-        <option value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
         <option value="$PROJECT_DIR$/pandas_viz/hist.py" />
         <option value="$PROJECT_DIR$/pandas_viz/df.py" />
         <option value="$PROJECT_DIR$/PythonGroup/changeData.py" />
@@ -150,6 +209,11 @@
         <option value="$PROJECT_DIR$/PythonGroup/runBothv2.py" />
         <option value="$PROJECT_DIR$/PythonGroup/BySession/createPropCSV.py" />
         <option value="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" />
+        <option value="$PROJECT_DIR$/PrelimProcessing/SplitData.py" />
+        <option value="$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py" />
+        <option value="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" />
+        <option value="$PROJECT_DIR$/PrelimProcessing/splitInOut.py" />
+        <option value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
       </list>
     </option>
   </component>
@@ -193,25 +257,7 @@
       <recent name="$PROJECT_DIR$/DataFrames" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runBothBin">
-    <configuration default="false" name="splitAgesOutIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGroup" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WMaze_Analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.createPropCSV (1)">
     <configuration default="false" name="splitOutandIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +276,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="runBothOutIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="TransformData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrelimProcessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WMaze_Analysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="splitAgesOutIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -243,43 +307,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/runBothOutIn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="createPropCSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="splitInOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGroup/BySession" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrelimProcessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/BySession/createPropCSV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrelimProcessing/splitInOut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="runBothBin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="createPropCSV (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGroup/BySession" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StochasticVolatility/BySession" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -499,18 +563,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.splitAgesOutIn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.splitOutandIn" />
-      <item index="2" class="java.lang.String" itemvalue="Python.runBothOutIn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.createPropCSV" />
-      <item index="4" class="java.lang.String" itemvalue="Python.runBothBin" />
+      <item index="0" class="java.lang.String" itemvalue="Python.splitOutandIn" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TransformData" />
+      <item index="2" class="java.lang.String" itemvalue="Python.splitAgesOutIn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.splitInOut" />
+      <item index="4" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.runBothBin" />
-        <item index="1" class="java.lang.String" itemvalue="Python.createPropCSV" />
-        <item index="2" class="java.lang.String" itemvalue="Python.splitOutandIn" />
-        <item index="3" class="java.lang.String" itemvalue="Python.runBothOutIn" />
+        <item index="0" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.splitOutandIn" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TransformData" />
+        <item index="3" class="java.lang.String" itemvalue="Python.splitInOut" />
         <item index="4" class="java.lang.String" itemvalue="Python.splitAgesOutIn" />
       </list>
     </recent_temporary>
@@ -560,7 +624,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3811421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -569,7 +633,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39707837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,17 +652,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PrelimProcessing/TransformData.py</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PrelimProcessing/TransformData.py</url>
-          <line>60</line>
+          <line>61</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PrelimProcessing/TransformData.py</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -620,32 +684,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="106" />
+      <option name="time" value="107" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graphErrorPercents.py" />
-    <entry file="file://$PROJECT_DIR$/errors.py" />
-    <entry file="file://$PROJECT_DIR$/graphErrorPercents.py" />
-    <entry file="file://$PROJECT_DIR$/generateInboundCriterionPlots.py" />
-    <entry file="file://$PROJECT_DIR$/fixNewCSVs.py" />
-    <entry file="file:///usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateInboundCriterionPlots.py" />
-    <entry file="file://$PROJECT_DIR$/errors.py" />
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_strptime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProportionCorrect.py" />
     <entry file="file://$PROJECT_DIR$/graphProportions.py" />
     <entry file="file://$PROJECT_DIR$/graphErrorPercents.py" />
@@ -725,28 +768,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/changeData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonGroup/runBothOutIn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="88" column="109" lean-forward="false" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
-          <folding>
-            <element signature="e#1#32#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -798,18 +824,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/splitOutandIn.py">
+    <entry file="file://$PROJECT_DIR$/PythonGroup/runBothv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        <state relative-caret-position="156">
+          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py">
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/decisions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -822,29 +864,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/runBothv2.py">
+    <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="11" />
+        <state relative-caret-position="1296">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGroup/changeData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/SplitData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/ProportionCorrect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/combinePerformance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/createPropCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="270">
           <caret line="18" column="133" lean-forward="false" selection-start-line="18" selection-start-column="133" selection-end-line="18" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py">
+    <entry file="file:///Library/Python/2.7/site-packages/pandas/io/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="142">
+          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/splitInOut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGroup/splitOutandIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,7 @@ def execute(rat,trials,avg):
     plot_results(rat,prep_data(rat,trials,avg),trials,avg)
 
 def prep_data(rat,trialNum,movAvg):
-    baseDir = "/Users/adelekap/Documents/BarnesLab/RawData/Processed Data/" + rat + "/"
+    baseDir = "/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/" + rat + "/"
     inboundCSV = baseDir + rat +"_Outbound.csv"
     with open(inboundCSV,'r') as ic:
         data = ic.readlines()
@@ -27,7 +27,7 @@ def prep_data(rat,trialNum,movAvg):
     return percentages
 
 def plot_results(rat,proportions,trialNum,movAvg):
-    baseDir = "/Users/adelekap/Documents/BarnesLab/RawData/Processed Data/" + rat + "/"
+    baseDir = "/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/" + rat + "/"
     trials = range(movAvg,trialNum,movAvg)
 
     figureName = baseDir + rat + "_OutboundTrials.png"

@@ -1,4 +1,5 @@
 import os
+import splitInOut
 
 #"All trials in which the rat departed either from the left
 #food well or from the right food well were classified as inbound
@@ -13,7 +14,7 @@ rows = [line.split(',') for line in lns if line != lns[0]]
 
 rats = [row[0] for row in rows]
 rats.remove('10362')
-baseDir = "/Volumes/ls 1/BarnesLab/RawData/"
+baseDir = "/Volumes/TRANS 1/BarnesLab/RawData/"
 
 
 def get_data(rat):
@@ -65,3 +66,20 @@ def get_data(rat):
 
 for rat in rats:
     get_data(rat)
+
+
+
+import pandas as pd
+
+baseDir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
+
+df = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv')
+rats = list(df['RAT'])
+
+for rat in rats:
+    data = pd.read_csv('{0}{1}/{1}_DATA.csv'.format(baseDir,str(rat)))
+    inbound = data[data['Trial Type'] == 'In'][['Session','Correct/Incorrect']]
+    outbound = data[data['Trial Type'] == 'Out'][['Session','Correct/Incorrect']]
+
+    inbound.to_csv('{0}{1}/{1}_IN.csv'.format(baseDir,str(rat)))
+    outbound.to_csv('{0}{1}/{1}_OUT.csv'.format(baseDir,str(rat)))
