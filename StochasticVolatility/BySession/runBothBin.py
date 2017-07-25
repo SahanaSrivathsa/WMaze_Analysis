@@ -6,6 +6,9 @@ from pymc3.distributions.timeseries import GaussianRandomWalk
 from pylab import rcParams
 import pymc3 as pm
 import sys
+import numpy as np
+from scipy import stats
+from renameFiles import *
 
 """
 Random effects state space model
@@ -128,6 +131,9 @@ def main(group,anType):
         lts = lt1.values()
         for trial in lts:
             learn.write(str(trial)+'\n')
+        learn.write("AVERAGE LEARNING TRIAL: "+ str(np.average(lts))+'\n')
+        learn.write("STANDARD ERROR: "+ str(stats.sem(lts)))
+
 
     summary_dataset = np.percentile(trace1['p'], [5, 50, 95], axis=0)
     plot_results(np.asarray(summary_dataset), 3, 2, group)
@@ -172,3 +178,5 @@ if __name__ == "__main__":
     plt.xlabel('Session')
     plt.axhline(0.95)
     plt.savefig(anType + 'PrDiffBIN.pdf')
+
+    rename(anType)

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/review.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" afterPath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundComparisonBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundPrDiffBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundPrDiffBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyzeData.sh" afterPath="$PROJECT_DIR$/analyzeData.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,6 +44,7 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497907496301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$fixTrace.coverage" NAME="fixTrace Coverage Results" MODIFIED="1500999931444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothOutIn.coverage" NAME="runBothOutIn Coverage Results" MODIFIED="1497991297688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$renameFiles.coverage" NAME="renameFiles Coverage Results" MODIFIED="1501015506943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData__1_.coverage" NAME="SplitData (1) Coverage Results" MODIFIED="1500921111568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphErrorPercents.coverage" NAME="graphErrorPercents Coverage Results" MODIFIED="1492728651459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$combinePerformance.coverage" NAME="combinePerformance Coverage Results" MODIFIED="1493791858650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -58,7 +59,7 @@
       <file leaf-file-name="createPropCSV.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="393">
               <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
               <folding />
             </state>
@@ -68,21 +69,31 @@
       <file leaf-file-name="fixTrace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="321">
               <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="133" column="22" lean-forward="true" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+            <state relative-caret-position="305">
+              <caret line="160" column="31" lean-forward="true" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="renameFiles.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,6 +194,8 @@
         <option value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
         <option value="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
         <option value="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/renameFiles.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py" />
         <option value="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
       </list>
     </option>
@@ -227,7 +240,7 @@
       <recent name="$PROJECT_DIR$/DataFrames" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fixTrace">
+  <component name="RunManager" selected="Python.renameFiles">
     <configuration default="false" name="splitOutandIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,24 +255,6 @@
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/splitOutandIn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TransformData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrelimProcessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WMaze_Analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -314,6 +309,24 @@
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="renameFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StochasticVolatility/BySession" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WMaze_Analysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -534,18 +547,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.splitOutandIn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TransformData" />
-      <item index="2" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.runBothBin" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fixTrace" />
+      <item index="1" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.runBothBin" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fixTrace" />
+      <item index="4" class="java.lang.String" itemvalue="Python.renameFiles" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fixTrace" />
-        <item index="1" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.runBothBin" />
-        <item index="3" class="java.lang.String" itemvalue="Python.splitOutandIn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TransformData" />
+        <item index="0" class="java.lang.String" itemvalue="Python.renameFiles" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fixTrace" />
+        <item index="2" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.runBothBin" />
+        <item index="4" class="java.lang.String" itemvalue="Python.splitOutandIn" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +586,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3811421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3811421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -640,11 +653,6 @@
           <line>48</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -654,8 +662,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graphErrorPercents.py" />
-    <entry file="file://$PROJECT_DIR$/graphTimeAtCenterCorrect.py" />
     <entry file="file://$PROJECT_DIR$/graphOldTimes.py" />
     <entry file="file://$PROJECT_DIR$/timeAtCenter.py" />
     <entry file="file://$PROJECT_DIR$/graphYoungTimes.py" />
@@ -919,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="393">
           <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
           <folding />
         </state>
@@ -927,19 +933,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="321">
           <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/renameFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="133" column="22" lean-forward="true" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+        <state relative-caret-position="305">
+          <caret line="160" column="31" lean-forward="true" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
