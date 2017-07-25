@@ -39,10 +39,8 @@ def plot_results(fit, fig_no, sub_no, group):
     plt.figure(fig_no)
 
     if fig_no < 3 and group == 'Young':
-        print "Graphing Young"
         plt.subplot(4,4,sub_no)
     elif fig_no <3 and group == 'Old':
-        print  "Graphing Old"
         plt.subplot(4,3,sub_no)
 
     else:
@@ -96,7 +94,6 @@ def main(group,anType):
         betaPop0 = pm.Normal('betaPop0', mu=0, sd=100)
         beta_0 = pm.Normal('beta_0', mu=betaPop0, sd=sigmab, shape=len(data_numAll))
 
-
         x = GaussianRandomWalk('x', sd=sigma, init=pm.Normal.dist(mu=0.0, sd=0.01), shape=data_numAll.shape[1])
         pm.Deterministic('p', tinvlogit(x + betaPop0))
 
@@ -127,6 +124,10 @@ def main(group,anType):
 
     print group
     print lt1
+    with open(dir+group+'_learningTrials.txt', 'w') as learn:
+        lts = lt1.values()
+        for trial in lts:
+            learn.write(str(trial)+'\n')
 
     summary_dataset = np.percentile(trace1['p'], [5, 50, 95], axis=0)
     plot_results(np.asarray(summary_dataset), 3, 2, group)
@@ -141,9 +142,13 @@ plots stuff
 
 if __name__ == "__main__":
     """
-    anType = Analysis Type {"overall", "inbound", "outbound"
+    anType = Analysis Type {"overall", "inbound", "outbound"}
     """
-    anType = "outbound"
+
+    args = sys.argv[1:]
+    anType = args[0][1:]
+
+    print "Running model for " + anType + " data . . . "
 
     plt.close('all')
     p_sevo = main('Young',anType)

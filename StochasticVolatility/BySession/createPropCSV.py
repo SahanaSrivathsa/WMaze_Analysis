@@ -46,22 +46,22 @@ for oldRat in oldRats:
     outboundOldDenom[str(oldRat)],outboundOldCorrect[str(oldRat)] = Outbound(oldRat)
 
 
-overallYngDenom.transpose().to_csv(dir+'overallYoungDenom.csv')
-overallYngCorrect.transpose().to_csv(dir+'overallYoungNum.csv')
-inboundYngDenom.transpose().to_csv(dir+'inboundYoungDenom.csv')
-inboundYngCorrect.transpose().to_csv(dir+'inboundYoungNum.csv')
-outboundYngDenom.transpose().to_csv(dir+'outboundYoungDenom.csv')
-outboundYngCorrect.transpose().to_csv(dir+'outboundYoungNum.csv')
+overallYngDenom.transpose().to_csv(dir+'PREoverallYoungDenom.csv')
+overallYngCorrect.transpose().to_csv(dir+'PREoverallYoungNum.csv')
+inboundYngDenom.transpose().to_csv(dir+'PREinboundYoungDenom.csv')
+inboundYngCorrect.transpose().to_csv(dir+'PREinboundYoungNum.csv')
+outboundYngDenom.transpose().to_csv(dir+'PREoutboundYoungDenom.csv')
+outboundYngCorrect.transpose().to_csv(dir+'PREoutboundYoungNum.csv')
 
 
-overallOldDenom.transpose().to_csv(dir+'overallOldDenom.csv')
-overallOldCorrect.transpose().to_csv(dir+'overallOldNum.csv')
-inboundOldDenom.transpose().to_csv(dir+'inboundOldDenom.csv')
-inboundOldCorrect.transpose().to_csv(dir+'inboundOldNum.csv')
-outboundOldDenom.transpose().to_csv(dir+'outboundOldDenom.csv')
-outboundOldCorrect.transpose().to_csv(dir+'outboundOldNum.csv')
+overallOldDenom.transpose().to_csv(dir+'PREoverallOldDenom.csv')
+overallOldCorrect.transpose().to_csv(dir+'PREoverallOldNum.csv')
+inboundOldDenom.transpose().to_csv(dir+'PREinboundOldDenom.csv')
+inboundOldCorrect.transpose().to_csv(dir+'PREinboundOldNum.csv')
+outboundOldDenom.transpose().to_csv(dir+'PREoutboundOldDenom.csv')
+outboundOldCorrect.transpose().to_csv(dir+'PREoutboundOldNum.csv')
 
-
+print "Created Session Data"
 
 
 

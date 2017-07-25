@@ -13,7 +13,6 @@ with open('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv', 'r') a
 rows = [line.split(',') for line in lns if line != lns[0]]
 
 rats = [row[0] for row in rows]
-rats.remove('10362')
 baseDir = "/Volumes/TRANS 1/BarnesLab/RawData/"
 
 
@@ -27,9 +26,7 @@ def get_data(rat):
 
     if os.path.exists(newDir) == False:
         os.mkdir(newDir)
-        print "Creating new Directory"
-    else:
-        print "Directory already exists!"
+
     with open(newDir + str(rat) + "_DATA.csv", 'w') as c:
         c.write("Session,Trial,Trial Type,Correct/Incorrect,Feeder #,Timestamp\n")
 
@@ -68,7 +65,6 @@ for rat in rats:
     get_data(rat)
 
 
-
 import pandas as pd
 
 baseDir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
@@ -83,3 +79,5 @@ for rat in rats:
 
     inbound.to_csv('{0}{1}/{1}_IN.csv'.format(baseDir,str(rat)))
     outbound.to_csv('{0}{1}/{1}_OUT.csv'.format(baseDir,str(rat)))
+
+print "Transformed Raw Data"
