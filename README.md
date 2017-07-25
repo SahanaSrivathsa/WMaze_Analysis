@@ -1,6 +1,11 @@
 # W-Maze Analysis #
-To run this analysis to output 10-trial moving average plots, run SplitData.py with the correct command line arguments.
+The core of this analysis uses the [PyMC3](https://github.com/pymc-devs/pymc3) probabilistic programming package. 
 
-State Space Analysis adopted from Dr. Anne Smith
+PyMC3 is a Python package for Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.
 
-To Run state-space analysis run the analyze_data.m with the responses in the RESPONSES list.
+To analyze the learning of the animals over time, a Stochastic volatility model is implemented. Stochastic volatility models model the highly variable nature of some timeseries with a latent volatility variable, modeled as a stochastic process.
+
+To run this analysis, follow the guidelines outlined in the [instructions file](https://github.com/adelekap/WMaze_Analysis/blob/master/instructions.txt).
+
+
+
