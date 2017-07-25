@@ -21,8 +21,8 @@ def tinvlogit(x):
 
 # plotting -------------------------------------------
 
-rcParams['figure.figsize'] = 10, 8
-font = {'size': 11}
+rcParams['figure.figsize'] = 15, 10
+font = {'size': 12}
 matplotlib.rc('font', **font)
 
 def plot_results(fit, fig_no, sub_no, group):
@@ -38,8 +38,12 @@ def plot_results(fit, fig_no, sub_no, group):
 
     plt.figure(fig_no)
 
-    if fig_no < 3:
-        plt.subplot(4, 3, sub_no)
+    if fig_no < 3 and group == 'Young':
+        print "Graphing Young"
+        plt.subplot(4,4,sub_no)
+    elif fig_no <3 and group == 'Old':
+        print  "Graphing Old"
+        plt.subplot(4,3,sub_no)
 
     else:
         plt.subplot(1, 1, 1)
@@ -65,6 +69,7 @@ def plot_results(fit, fig_no, sub_no, group):
     plt.legend(loc='lower right', prop={'size': 8})
     plt.text(300, yv, group + ' learning trial  ' + str(learning_trial))
     plt.ylim(0, 1.05)
+    plt.xlim(1,14)
     plt.tight_layout()
     plt.savefig(group + str(fig_no) + '.pdf')
     return learning_trial
@@ -79,13 +84,13 @@ def main(group,anType):
         fig_no = 2
 
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
-    data_denom = pd.read_csv(dir + anType + group + 'Denom.csv').ix[:,:]  # csv of total trials for each day
-    data_numAll = pd.read_csv(dir + anType + group + 'Num.csv').ix[:,:]  # correct per day
+    data_denom = pd.read_csv(dir + anType + group + 'Denom.csv')  # csv of total trials for each day
+    data_numAll = pd.read_csv(dir + anType + group + 'Num.csv')  # correct per day
 
     numAnimals = len(data_numAll)
 
     with pm.Model() as model_old:
-        sigma = pm.Uniform('sigma', 0.1, 0.8)
+        sigma = pm.Uniform('sigma', 0.05, 0.5)
         sigmab = pm.Uniform('sigmab', 0.1, 0.8)
 
         betaPop0 = pm.Normal('betaPop0', mu=0, sd=100)

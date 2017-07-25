@@ -2,81 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/COR.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/DENOM.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundComparisonBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundIndivOldBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundIndivYoungBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundTraceOldBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/InboundLearning/inboundTraceYoungBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Old3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundComparisonBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundIndivOldBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundPrDiffBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundTraceOldBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallComparisonBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallIndivOldBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallIndivYoungBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallPrDiffBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallTraceOldBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/OverallLearning/overallTraceYoungBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/PrDiffBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/Young3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/createPropCSV.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/inboundPrDiffBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/outboundPrDiffBIN.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/runBothBin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceOld.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/BySession/traceYoung.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundComparison.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundIndivOld.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundIndivYoung.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundOld.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/InboundYoung.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/InboundLearning/PrDiffInbound.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundold2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundold3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundtraceold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundtraceyoung.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundyoung1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Inboundyoung3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundold2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundold3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundtraceold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/Outboundyoung3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallComparison.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallIndivOld.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallOld.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallYoung.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/OverallLearning/overallindivYoung.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/PrDiffInbound.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/PrDiffOutbound.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/PopTogether.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/PrDiff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/glme1.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/groupdata_POCDproject.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/oxyg.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/oxyg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/sevo.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/sevo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/traceoxyg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/SEVO/tracesevo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/changeData.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/runBoth.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/runBothOutIn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/runBothv2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/splitAges.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PythonGroup/splitOutandIn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/COR.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/DENOM.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/Old2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/Old3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/PrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/Young1.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/Young3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/inboundPrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/outboundPrDiffBIN.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/traceOld.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/traceYoung.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Inboundold2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Inboundold3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Inboundtraceold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Inboundtraceyoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Inboundyoung1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Inboundyoung3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Outboundold2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Outboundold3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Outboundtraceold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/Outboundyoung3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/PrDiffInbound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/PrDiffOutbound.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundComparisonBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundComparisonBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundPrDiffBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundPrDiffBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallComparisonBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallIndivOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallIndivYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallPrDiffBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallPrDiffBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallTraceOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OverallLearning/overallTraceYoungBIN.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py" afterPath="$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" afterPath="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/SplitData.py" afterPath="$PROJECT_DIR$/PrelimProcessing/SplitData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" afterPath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pandas_viz/rats.csv" afterPath="$PROJECT_DIR$/pandas_viz/rats.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +59,7 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$hist.coverage" NAME="hist Coverage Results" MODIFIED="1497046040074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_viz" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$timeAtCenter.coverage" NAME="timeAtCenter Coverage Results" MODIFIED="1492737626947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$overallDecisions.coverage" NAME="overallDecisions Coverage Results" MODIFIED="1493524285816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV__1_.coverage" NAME="createPropCSV (1) Coverage Results" MODIFIED="1500922604519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV__1_.coverage" NAME="createPropCSV (1) Coverage Results" MODIFIED="1500938583502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphProportions.coverage" NAME="graphProportions Coverage Results" MODIFIED="1492734239424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData.coverage" NAME="SplitData Coverage Results" MODIFIED="1493314171310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphOldTimes.coverage" NAME="graphOldTimes Coverage Results" MODIFIED="1492738599092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -108,9 +76,10 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$createPropCSV.coverage" NAME="createPropCSV Coverage Results" MODIFIED="1500921395383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphYoungTimes.coverage" NAME="graphYoungTimes Coverage Results" MODIFIED="1492738617198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAges.coverage" NAME="splitAges Coverage Results" MODIFIED="1497902095299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothBin.coverage" NAME="SplitData Coverage Results" MODIFIED="1500920784025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup/BySession" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothBin.coverage" NAME="runBothBin Coverage Results" MODIFIED="1500940848982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAgesOutIn.coverage" NAME="splitAgesOutIn Coverage Results" MODIFIED="1500921607177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497907496301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$fixTrace.coverage" NAME="fixTrace Coverage Results" MODIFIED="1500938599560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothOutIn.coverage" NAME="runBothOutIn Coverage Results" MODIFIED="1497991297688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData__1_.coverage" NAME="SplitData (1) Coverage Results" MODIFIED="1500921111568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphErrorPercents.coverage" NAME="graphErrorPercents Coverage Results" MODIFIED="1492728651459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -123,12 +92,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createPropCSV.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createPropCSV.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fixTrace.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransformData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,7 +161,6 @@
       <find>outbound</find>
       <find>lot_results</find>
       <find>plot_</find>
-      <find>subplot</find>
       <find>plot_resu</find>
       <find>1.0</find>
       <find>0.5</find>
@@ -168,6 +170,7 @@
       <find>png</find>
       <find>1</find>
       <find>plot_results</find>
+      <find>subplot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,6 +217,9 @@
         <option value="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" />
         <option value="$PROJECT_DIR$/PrelimProcessing/splitInOut.py" />
         <option value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
       </list>
     </option>
   </component>
@@ -257,7 +263,7 @@
       <recent name="$PROJECT_DIR$/DataFrames" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.createPropCSV (1)">
+  <component name="RunManager" selected="Python.runBothBin">
     <configuration default="false" name="splitOutandIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,42 +300,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="splitAgesOutIn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGroup" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WMaze_Analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="splitInOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrelimProcessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WMaze_Analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrelimProcessing/splitInOut.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="createPropCSV (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,6 +314,42 @@
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="runBothBin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StochasticVolatility/BySession" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WMaze_Analysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fixTrace" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StochasticVolatility/BySession" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WMaze_Analysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -565,17 +571,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.splitOutandIn" />
       <item index="1" class="java.lang.String" itemvalue="Python.TransformData" />
-      <item index="2" class="java.lang.String" itemvalue="Python.splitAgesOutIn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.splitInOut" />
-      <item index="4" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.runBothBin" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fixTrace" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.splitOutandIn" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TransformData" />
-        <item index="3" class="java.lang.String" itemvalue="Python.splitInOut" />
-        <item index="4" class="java.lang.String" itemvalue="Python.splitAgesOutIn" />
+        <item index="0" class="java.lang.String" itemvalue="Python.runBothBin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fixTrace" />
+        <item index="2" class="java.lang.String" itemvalue="Python.createPropCSV (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.splitOutandIn" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TransformData" />
       </list>
     </recent_temporary>
   </component>
@@ -680,17 +686,30 @@
           <line>14</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="107" />
+      <option name="time" value="115" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProportionCorrect.py" />
-    <entry file="file://$PROJECT_DIR$/graphProportions.py" />
     <entry file="file://$PROJECT_DIR$/graphErrorPercents.py" />
     <entry file="file://$PROJECT_DIR$/graphTimeAtCenterCorrect.py" />
     <entry file="file://$PROJECT_DIR$/graphOldTimes.py" />
@@ -772,14 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="88" column="109" lean-forward="false" selection-start-line="88" selection-start-column="109" selection-end-line="88" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="3983" column="0" lean-forward="false" selection-start-line="3983" selection-start-column="0" selection-end-line="3983" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -928,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PrelimProcessing/splitInOut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -954,11 +955,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="2743" column="0" lean-forward="false" selection-start-line="2743" selection-start-column="0" selection-end-line="2743" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
