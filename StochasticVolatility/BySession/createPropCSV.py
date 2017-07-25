@@ -61,7 +61,7 @@ inboundOldCorrect.transpose().to_csv(dir+'PREinboundOldNum.csv')
 outboundOldDenom.transpose().to_csv(dir+'PREoutboundOldDenom.csv')
 outboundOldCorrect.transpose().to_csv(dir+'PREoutboundOldNum.csv')
 
-print "Created Session Data"
+print "|||||||||||||||||Created Session Data|||||||||||||||||"
 
 
 

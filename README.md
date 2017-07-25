@@ -8,4 +8,4 @@ To analyze the learning of the animals over time, a Stochastic volatility model 
 To run this analysis, follow the guidelines outlined in the [instructions file](https://github.com/adelekap/WMaze_Analysis/blob/master/instructions.txt).
 
 
-The other files contained in this code suite are alternative analyses including plotting a 10-trial moving average of the animals' performance, and a state space analysis in Matlab.
+The other files contained in this codebase are alternative analyses including plotting a 10-trial moving average of the animals' performance, and a state space analysis in Matlab.

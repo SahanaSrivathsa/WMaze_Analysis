@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import matplotlib
-import numpy as np
 import pandas as pd
 from pymc3.distributions.timeseries import GaussianRandomWalk
 from pylab import rcParams
@@ -25,7 +24,7 @@ def tinvlogit(x):
 # plotting -------------------------------------------
 
 rcParams['figure.figsize'] = 15, 10
-font = {'size': 12}
+font = {'size': 16}
 matplotlib.rc('font', **font)
 
 def plot_results(fit, fig_no, sub_no, group):
@@ -125,8 +124,6 @@ def main(group,anType):
         summary_dataset = np.percentile(trace1[lc][:], [5, 50, 95], axis=0)
         lt1[ii] = plot_results(np.asarray(summary_dataset), fig_no, ii + 1, group)
 
-    print group
-    print lt1
     with open(dir+group+'_learningTrials.txt', 'w') as learn:
         lts = lt1.values()
         for trial in lts:
@@ -134,16 +131,17 @@ def main(group,anType):
         learn.write("AVERAGE LEARNING TRIAL: "+ str(np.average(lts))+'\n')
         learn.write("STANDARD ERROR: "+ str(stats.sem(lts)))
 
-
+    print "|||||||||||||||||Completed Analysis for " + group + " data|||||||||||||||||"
     summary_dataset = np.percentile(trace1['p'], [5, 50, 95], axis=0)
     plot_results(np.asarray(summary_dataset), 3, 2, group)
     return trace1['p']
 
 
+
+
 """
 ----------------------------------------------------------------------
 calls main twice - once for each group
-plots stuff
 """
 
 if __name__ == "__main__":
@@ -154,7 +152,7 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     anType = args[0][1:]
 
-    print "Running model for " + anType + " data . . . "
+    print "|||||||||||||||||Running model for " + anType + " data . . .||||||||||||||||| "
 
     plt.close('all')
     p_sevo = main('Young',anType)
@@ -180,3 +178,5 @@ if __name__ == "__main__":
     plt.savefig(anType + 'PrDiffBIN.pdf')
 
     rename(anType)
+
+    print "|||||||||||||||||SESSION ANALYSIS COMPLETE|||||||||||||||||"

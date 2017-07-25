@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundComparisonBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivOldBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundIndivYoungBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundPrDiffBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundPrDiffBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceOldBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/OutboundLearning/outboundTraceYoungBIN.pdf" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/InboundLearning/InboundComparison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/InboundLearning/InboundIndivOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/InboundLearning/InboundIndivYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/InboundLearning/InboundOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/InboundLearning/InboundYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/InboundLearning/PrDiffInbound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/OverallLearning/overallComparison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/OverallLearning/overallIndivOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/OverallLearning/overallOld.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/OverallLearning/overallYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/OverallLearning/overallindivYoung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/PopTogether.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/PrDiff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/glme1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/groupdata_POCDproject.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/oxyg.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/oxyg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/sevo.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/sevo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/traceoxyg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/SEVO/tracesevo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/changeData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/runBothOutIn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/splitAges.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/splitAgesOutIn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StochasticVolatility/splitOutandIn.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" afterPath="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +80,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createPropCSV.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="createPropCSV.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+            <state relative-caret-position="470">
+              <caret line="63" column="61" lean-forward="false" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -69,8 +93,8 @@
       <file leaf-file-name="fixTrace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="555">
+              <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -79,8 +103,8 @@
       <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="160" column="31" lean-forward="true" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+            <state relative-caret-position="620">
+              <caret line="181" column="70" lean-forward="false" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -88,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="renameFiles.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="renameFiles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -101,8 +125,8 @@
       <file leaf-file-name="TransformData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="608">
+              <caret line="82" column="61" lean-forward="false" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -191,12 +215,12 @@
         <option value="$PROJECT_DIR$/PrelimProcessing/InboundGraphs.py" />
         <option value="$PROJECT_DIR$/PrelimProcessing/OutboundGraphs.py" />
         <option value="$PROJECT_DIR$/PrelimProcessing/splitInOut.py" />
-        <option value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
-        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
-        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
         <option value="$PROJECT_DIR$/StochasticVolatility/renameFiles.py" />
         <option value="$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py" />
         <option value="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
+        <option value="$PROJECT_DIR$/PrelimProcessing/TransformData.py" />
+        <option value="$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py" />
       </list>
     </option>
   </component>
@@ -662,7 +686,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graphOldTimes.py" />
     <entry file="file://$PROJECT_DIR$/timeAtCenter.py" />
     <entry file="file://$PROJECT_DIR$/graphYoungTimes.py" />
     <entry file="file://$PROJECT_DIR$/graphTimeAtCenterIncorrect.py" />
@@ -913,32 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/renameFiles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -949,11 +946,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="160" column="31" lean-forward="true" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+        <state relative-caret-position="620">
+          <caret line="181" column="70" lean-forward="false" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlotlyPlots/perseveration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,6 +974,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrelimProcessing/TransformData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="82" column="61" lean-forward="false" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="63" column="61" lean-forward="false" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
           <folding />
         </state>
       </provider>

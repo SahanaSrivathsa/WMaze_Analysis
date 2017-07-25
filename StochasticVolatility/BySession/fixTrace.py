@@ -35,4 +35,4 @@ def runFix(fileList,type,newFileList):
 runFix(denomFiles,'d',denomFilesNew)
 runFix(numFiles,'n',numFilesNew)
 
-print "Cleaned up Session Data"
+print "|||||||||||||||||Cleaned up Session Data|||||||||||||||||"

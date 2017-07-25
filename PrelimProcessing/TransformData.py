@@ -80,4 +80,4 @@ for rat in rats:
     inbound.to_csv('{0}{1}/{1}_IN.csv'.format(baseDir,str(rat)))
     outbound.to_csv('{0}{1}/{1}_OUT.csv'.format(baseDir,str(rat)))
 
-print "Transformed Raw Data"
+print "|||||||||||||||||Transformed Raw Data|||||||||||||||||"
