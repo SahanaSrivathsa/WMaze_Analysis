@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundComparisonBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivYoungBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundPrDiffBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundPrDiffBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceOldBIN.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceYoungBIN.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyzeData.sh" afterPath="$PROJECT_DIR$/analyzeData.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +80,8 @@
       <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+            <state relative-caret-position="350">
+              <caret line="168" column="33" lean-forward="true" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -86,8 +92,8 @@
       <file leaf-file-name="renameFiles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -923,14 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/createPropCSV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -949,18 +947,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/fixTrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/renameFiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+        <state relative-caret-position="350">
+          <caret line="168" column="33" lean-forward="true" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

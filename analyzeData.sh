@@ -6,6 +6,6 @@ python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/c
 
 python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/fixTrace.py
 
-python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/runBothBin.py $*
+python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/runBothBin.py $1 $2 $3 $4 $5
 
 

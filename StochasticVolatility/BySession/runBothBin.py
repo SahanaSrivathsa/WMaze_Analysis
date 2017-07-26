@@ -90,8 +90,8 @@ def main(group,anType):
     numAnimals = len(data_numAll)
 
     with pm.Model() as model_old:
-        sigma = pm.Uniform('sigma', 0.05, 0.5)
-        sigmab = pm.Uniform('sigmab', 0.1, 0.8)
+        sigma = pm.Uniform('sigma', float(sigmaMin), float(sigmaMax))
+        sigmab = pm.Uniform('sigmab', float(sigmabMin), float(sigmabMax))
 
         betaPop0 = pm.Normal('betaPop0', mu=0, sd=100)
         beta_0 = pm.Normal('beta_0', mu=betaPop0, sd=sigmab, shape=len(data_numAll))
@@ -124,7 +124,16 @@ def main(group,anType):
         summary_dataset = np.percentile(trace1[lc][:], [5, 50, 95], axis=0)
         lt1[ii] = plot_results(np.asarray(summary_dataset), fig_no, ii + 1, group)
 
-    with open(dir+group+'_learningTrials.txt', 'w') as learn:
+    if anType == 'overall':
+        dtype = 'Overall'
+    if anType == 'inbound':
+        dtype = 'Inbound'
+    if anType == 'outbound':
+        dtype = 'Outbound'
+
+    dataDir = '/Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/'
+    txtFile = '{0}{1}Learning/{1}_{2}_learningTrials.txt'.format(dataDir,dtype,group)
+    with open(txtFile , 'w') as learn:
         lts = lt1.values()
         for trial in lts:
             learn.write(str(trial)+'\n')
@@ -152,7 +161,14 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     anType = args[0][1:]
 
+    sigmaMin,sigmaMax = args[1].split('-')
+    sigmabMin,sigmabMax = args[2].split('-')
+
     print "||||||||||||Running model for " + anType + " data . . .||||||||||||||"
+    print "SIGMA min: " + sigmaMin
+    print "SIGMA max: " +sigmaMax
+    print "SIGMAb min: "+ sigmabMin
+    print 'SIGMAb max: '+ sigmabMax
 
     plt.close('all')
     p_sevo = main('Young',anType)
