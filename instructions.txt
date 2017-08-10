@@ -2,7 +2,7 @@ Execute these commands in this directory to run the analysis for Session Data:
 
 chmod u+x analyzeData.sh
 export PATH=$PATH:/path/to/script
-analyzaData.sh -{analysis type}
+analyzeData.sh -{analysis type}
 
 
 [Analysis types: ‘overall’, ‘inbound’, and ‘outbound’]

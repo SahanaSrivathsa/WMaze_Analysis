@@ -64,12 +64,12 @@ def plot_results(fit, fig_no, sub_no, group):
     else:
         learning_trial = last_time_below_threshold[-1] + 2  # +2 to account for zero start and above line
 
-    plt.xlabel('Trial')
+    plt.xlabel('Session')
     plt.ylabel('Pr(correct)')
-    plt.legend(loc='lower right', prop={'size': 8})
-    plt.text(300, yv, group + ' learning trial  ' + str(learning_trial))
+    plt.legend(loc='lower right', prop={'size': 10})
+    plt.text(300, yv, group + ' learning session  ' + str(learning_trial))
     plt.ylim(0, 1.05)
-    plt.xlim(1,14)
+    plt.xlim(0,14)
     plt.tight_layout()
     plt.savefig(group + str(fig_no) + '.pdf')
     return learning_trial
@@ -84,8 +84,8 @@ def main(group,anType):
         fig_no = 2
 
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
-    data_denom = pd.read_csv(dir + anType + group + 'Denom.csv')  # csv of total trials for each day
-    data_numAll = pd.read_csv(dir + anType + group + 'Num.csv')  # correct per day
+    data_denom = pd.read_csv(dir + anType + group + 'Denom.csv')# csv of total trials for each day
+    data_numAll = pd.read_csv(dir + anType + group + 'Num.csv') # correct per day
 
     numAnimals = len(data_numAll)
 
@@ -108,11 +108,11 @@ def main(group,anType):
 
     with model_old:
         step1 = pm.NUTS(vars=[x, sigmab, beta_0], gamma=.25)
-        start2 = pm.sample(500, step1)[-1]
+        start2 = pm.sample(2000, step1)[-1]
 
         # Start next run at the last sampled position.
         step2 = pm.NUTS(vars=[x, sigmab, beta_0], scaling=start2, gamma=.55)
-        trace1 = pm.sample(1000, step2, start=start2, progressbar=True)
+        trace1 = pm.sample(5000, step2, start=start2, progressbar=True)
 
     plt.figure(50)
     pm.traceplot(trace1, varnames=['sigmab', 'beta_0', 'sigma'])

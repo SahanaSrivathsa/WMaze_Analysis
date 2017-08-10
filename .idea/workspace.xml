@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundComparisonBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundComparisonBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivOldBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundIndivYoungBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundPrDiffBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundPrDiffBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceOldBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceOldBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceYoungBIN.pdf" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/InboundLearning/inboundTraceYoungBIN.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" afterPath="$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyzeData.sh" afterPath="$PROJECT_DIR$/analyzeData.sh" />
-    </list>
+    <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +71,7 @@
       <file leaf-file-name="runBothBin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="440">
               <caret line="168" column="33" lean-forward="true" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -965,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/BySession/runBothBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="440">
           <caret line="168" column="33" lean-forward="true" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
