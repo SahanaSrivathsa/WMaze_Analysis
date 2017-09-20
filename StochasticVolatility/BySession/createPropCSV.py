@@ -1,10 +1,11 @@
 import pandas as pd
+import os
 
-df = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv')
+df = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv') #Path to rats.csv
 oldRats = list(df[df['AGE'] == 25]['RAT'])
 youngRats = list(df[df['AGE'] == 10]['RAT'])
 
-dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
+dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/' #Path to processed data
 
 def BySession(rat):
     data = pd.read_csv('{0}{1}/{1}_DATA.csv'.format(dir,str(rat)))
@@ -64,11 +65,38 @@ outboundOldCorrect.transpose().to_csv(dir+'PREoutboundOldNum.csv')
 print "|||||||||||||||||Created Session Data|||||||||||||||||"
 
 
+newdir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/PRE'
+
+denomFiles = [newdir+'inboundOldDenom.csv',newdir+'outboundOldDenom.csv',newdir+'inboundYoungDenom.csv',newdir+'outboundYoungDenom.csv',
+              newdir+'overallOldDenom.csv',newdir+'overallYoungDenom.csv']
+numFiles = [newdir+'inboundOldNum.csv',newdir+'outboundOldNum.csv',newdir+'inboundYoungNum.csv',newdir+'outboundYoungNum.csv',
+            newdir+'overallOldNum.csv',newdir+'overallYoungNum.csv']
+denomFilesNew = [dir+'inboundOldDenom.csv',dir+'outboundOldDenom.csv',dir+'inboundYoungDenom.csv',dir+'outboundYoungDenom.csv',
+              dir+'overallOldDenom.csv',dir+'overallYoungDenom.csv']
+numFilesNew = [dir+'inboundOldNum.csv',dir+'outboundOldNum.csv',dir+'inboundYoungNum.csv',dir+'outboundYoungNum.csv',
+            dir+'overallOldNum.csv',dir+'overallYoungNum.csv']
 
 
+def runFix(fileList,type,newFileList):
+    if type == 'd':
+        value = '10'
+    else:
+        value = '5'
+
+    for index in range(len(fileList)):
+        with open(fileList[index],'r') as read:
+            lines = read.readlines()
+
+        with open(newFileList[index],'w') as write:
+            write.write('0,1,2,3,4,5,6,7,8,9,10,11,12,13,14\n')
+
+            for line in lines:
+                if line != lines[0]:
+                    write.write(value + ',' + line[6:])
+        os.remove(fileList[index])
 
 
+runFix(denomFiles,'d',denomFilesNew)
+runFix(numFiles,'n',numFilesNew)
 
-
-
-
+print "||||||||||||||||Cleaned up Session Data|||||||||||||||"

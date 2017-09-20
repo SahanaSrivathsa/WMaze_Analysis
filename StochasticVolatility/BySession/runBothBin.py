@@ -30,12 +30,12 @@ matplotlib.rc('font', **font)
 def plot_results(fit, fig_no, sub_no, group):
 
     if group == 'Young':
-        color = '#0073dd'
-        dcolor = 'darkblue'
+        color = '#09933'
+        dcolor = 'green'
         yv = 0.2
     else:
-        color = 'orange'
-        dcolor = '#7f4b05'
+        color = 'purple'
+        dcolor = '#9900cc'
         yv = 0.1
 
     plt.figure(fig_no)

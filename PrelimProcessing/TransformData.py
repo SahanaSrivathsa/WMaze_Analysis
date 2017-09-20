@@ -1,19 +1,12 @@
 import os
-import splitInOut
+import pandas as pd
 
-#"All trials in which the rat departed either from the left
-#food well or from the right food well were classified as inbound
-#trials, and all trials in which the rat departed from the center food
-#well were classified as outbound trials." - Loren,Frank (2009)
+"""Processes the raw data to be used in further analyses"""
 
-"""This module takes the Timestamp files of the rats"""
+df = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv')  # Path to rats.csv
+baseDir = "/Volumes/TRANS 1/BarnesLab/RawData/"  # Path to raw data file folders
 
-with open('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv', 'r') as rats:
-    lns = rats.readlines()
-rows = [line.split(',') for line in lns if line != lns[0]]
-
-rats = [row[0] for row in rows]
-baseDir = "/Volumes/TRANS 1/BarnesLab/RawData/"
+rats = list(df['RAT'])
 
 
 def get_data(rat):
@@ -59,25 +52,17 @@ def get_data(rat):
             session += 1
             trial = 1
 
+for rat in rats:
+    get_data(str(rat))
 
+processedDir = baseDir + '/Processed Data/'
 
 for rat in rats:
-    get_data(rat)
-
-
-import pandas as pd
-
-baseDir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
-
-df = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv')
-rats = list(df['RAT'])
-
-for rat in rats:
-    data = pd.read_csv('{0}{1}/{1}_DATA.csv'.format(baseDir,str(rat)))
+    data = pd.read_csv('{0}{1}/{1}_DATA.csv'.format(processedDir,str(rat)))
     inbound = data[data['Trial Type'] == 'In'][['Session','Correct/Incorrect']]
     outbound = data[data['Trial Type'] == 'Out'][['Session','Correct/Incorrect']]
 
-    inbound.to_csv('{0}{1}/{1}_IN.csv'.format(baseDir,str(rat)))
-    outbound.to_csv('{0}{1}/{1}_OUT.csv'.format(baseDir,str(rat)))
+    inbound.to_csv('{0}{1}/{1}_IN.csv'.format(processedDir,str(rat)))
+    outbound.to_csv('{0}{1}/{1}_OUT.csv'.format(processedDir,str(rat)))
 
 print "|||||||||||||||||Transformed Raw Data|||||||||||||||||"

@@ -4,8 +4,6 @@ python /Users/adelekap/Documents/WMaze_Analysis/PrelimProcessing/TransformData.p
 
 python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/createPropCSV.py
 
-python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/fixTrace.py
-
 python /Users/adelekap/Documents/WMaze_Analysis/StochasticVolatility/BySession/runBothBin.py $1 $2 $3 $4 $5
 
 
