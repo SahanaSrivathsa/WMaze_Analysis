@@ -48,11 +48,26 @@ plotData['Age'] = ['Young' for i in range(1,15)]+['Old' for i in range(1,15)]
 plotData['Mean'] = list(means.loc['Young']) + list(means.loc['Old'])
 plotData['CI'] = list(ci.loc['Young']) + list(ci.loc['Old'])
 
-sns.barplot(plotData)
-plt.show()
+#sns.barplot(x='Session',y='Mean',data=plotData,hue='Age')
+#plt.show()
 
 tups = [x for y in zip([(i,"Young") for i in range(1,15)],[(i,"Old") for i in range(1,15)]) for x in y]
 index = pd.MultiIndex.from_tuples(tups, names=['session', 'age'])
+
+
+def errplot(x, y, yerr, data):
+    ax = plt.gca()
+    ax2 = ax.twinx()
+    young = data[data['Age']=='Young']
+    old = data[data['Age'] == 'Old']
+    young.plot(x=x, y=y, yerr=yerr, kind="bar", ax=ax,color="green",position=0,width=0.2)
+    old.plot(x=x,y=y,yerr=yerr,kind="bar",ax=ax2,color="purple",position=1,width=0.2)
+    plt.show()
+
+
+errplot("Session", "Mean", "CI",plotData)
+print 'test'
+
 
 
 
