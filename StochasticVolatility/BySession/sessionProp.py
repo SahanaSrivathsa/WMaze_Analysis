@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 """"
 Creates a plot of the proportion correct for each rat and the mean
@@ -31,6 +32,9 @@ def plot(anType):
     plt.ylabel('Proportion Correct')
     plt.xlim([1,14])
     plt.savefig(anType+'Proportion.pdf')
+    green_patch = mpatches.Patch(color='green', label='Young')
+    purple_patch = mpatches.Patch(color='purple', label='Old')
+    plt.legend(handles=[green_patch,purple_patch],loc=4)
     plt.show()
 
 
