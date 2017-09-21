@@ -31,6 +31,7 @@ def plot(anType):
     plt.xlabel('Session')
     plt.ylabel('Proportion Correct')
     plt.xlim([1,14])
+    plt.ylim([0,1])
     green_patch = mpatches.Patch(color='green', label='Young')
     purple_patch = mpatches.Patch(color='purple', label='Old')
     plt.legend(handles=[green_patch,purple_patch],loc=4)
