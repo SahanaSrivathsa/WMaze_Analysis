@@ -1,6 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+""""
+Creates a plot of the proportion correct for each rat and the mean
+Saves to figs: inbound and outbound.
+"""
+
 def getData(anType,group):
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
     data_num = pd.read_csv(dir + anType + group + 'Num.csv').iloc[:, 1:]
@@ -22,7 +27,8 @@ def plot(anType):
         oy = odata.iloc[row]
         plt.plot(x,oy,color='purple',alpha = 0.3)
     plt.plot(x,list(odata.mean()),color='purple',lw=2)
-
+    plt.xlabel('Session')
+    plt.ylabel('Proportion Correct')
     plt.xlim([1,14])
     plt.savefig(anType+'Proportion.pdf')
     plt.show()
