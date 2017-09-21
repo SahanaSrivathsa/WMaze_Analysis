@@ -47,7 +47,8 @@ plotData = pd.DataFrame()
 plotData['Session'] = range(1,15)+range(1,15)
 plotData['Age'] = ['Young' for i in range(1,15)]+['Old' for i in range(1,15)]
 plotData['Mean'] = list(means.loc['Young']) + list(means.loc['Old'])
-plotData['CI'] = list(ci.loc['Young']) + list(ci.loc['Old'])
+plotData['youngCI'] = list(ci.loc['Young']) + list(ci.loc['Young'])
+plotData['oldCI'] = list(ci.loc['Old']) + list(ci.loc['Old'])
 
 #sns.barplot(x='Session',y='Mean',data=plotData,hue='Age')
 #plt.show()
@@ -56,7 +57,7 @@ tups = [x for y in zip([(i,"Young") for i in range(1,15)],[(i,"Old") for i in ra
 index = pd.MultiIndex.from_tuples(tups, names=['session', 'age'])
 
 
-def errplot(x, y, yerr, data):
+def errplot(x, y, yerr1,yerr2, data):
     print plt.style.available
     plt.figure()
     plt.style.use('ggplot')
@@ -64,15 +65,14 @@ def errplot(x, y, yerr, data):
     ax2 = ax.twinx()
     young = data[data['Age']=='Young']
     old = data[data['Age'] == 'Old']
-    young.plot(x=x, y=y, yerr=yerr, kind="bar", ax=ax,color="green",position=0,width=0.4)
-    old.plot(x=x,y=y,yerr=yerr,kind="bar",ax=ax2,color="purple",position=1,width=0.4)
-    # Turns off grid on the left Axis.
+    young.plot(x=x, y=y, yerr=yerr1, kind="bar", ax=ax,color="green",position=0,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1))
+    old.plot(x=x,y=y,yerr=yerr2,kind="bar",ax=ax2,color="purple",position=1,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1))
     ax2.grid(False)
-    # Turns off grid on the secondary (right) Axis.
+    ax2.get_yaxis().set_visible(False)
     plt.show()
 
 
-errplot("Session", "Mean", "CI",plotData)
+errplot("Session", "Mean", "youngCI","oldCI",plotData)
 print 'test'
 
 
