@@ -5,6 +5,12 @@ from scipy import stats as st
 import seaborn as sns
 import numpy as np
 
+"""
+This creates two plots:
+(1) A plot of the average number of inbound trials for young and old
+(2) A plot of the average number of outbound trials for young and old
+"""
+
 def getData(anType,group):
 
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
@@ -13,51 +19,7 @@ def getData(anType,group):
     out['age'] = group
     return out
 
-def createListData(dataframe):
-    data = []
-    for i in range(len(dataframe)):
-        data.append(list(dataframe.iloc[0]))
-    return data
-
-def plot(anType,group,data):
-    #data = list of each rat's list of proportions
-
-    for y in data:
-        x = range(1,len(y)+1)
-        plt.plot(x,y)
-    plt.show()
-
-
-
-inYoungTotal = getData('inbound','Young')
-inOldTotal = getData('inbound','Old')
-inbound = pd.concat([inYoungTotal,inOldTotal])
-
-data2 = inbound.groupby(['age']).mean()
-data = inbound.groupby(['age']).describe()
-
-
-
-
-grouped = inbound.groupby(['age'])
-means = grouped.mean()
-ci = grouped.aggregate(lambda x: st.sem(x) * 1.96) #95% confidence interval
-
-plotData = pd.DataFrame()
-plotData['Session'] = range(1,15)+range(1,15)
-plotData['Age'] = ['Young' for i in range(1,15)]+['Old' for i in range(1,15)]
-plotData['Mean'] = list(means.loc['Young']) + list(means.loc['Old'])
-plotData['youngCI'] = list(ci.loc['Young']) + list(ci.loc['Young'])
-plotData['oldCI'] = list(ci.loc['Old']) + list(ci.loc['Old'])
-
-#sns.barplot(x='Session',y='Mean',data=plotData,hue='Age')
-#plt.show()
-
-tups = [x for y in zip([(i,"Young") for i in range(1,15)],[(i,"Old") for i in range(1,15)]) for x in y]
-index = pd.MultiIndex.from_tuples(tups, names=['session', 'age'])
-
-
-def plot(x, y, yerr1,yerr2, data):
+def plot(x, y, yerr1,yerr2, data,type):
     print plt.style.available
     plt.figure()
     plt.style.use('ggplot')
@@ -66,14 +28,37 @@ def plot(x, y, yerr1,yerr2, data):
     ax2 = ax.twinx()
     young = data[data['Age']=='Young']
     old = data[data['Age'] == 'Old']
-    young.plot(x=x, y=y, yerr=yerr1, kind="bar", ax=ax,color="green",position=0,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1))
-    old.plot(x=x,y=y,yerr=yerr2,kind="bar",ax=ax2,color="purple",position=1,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1))
+    young.plot(x=x, y=y, yerr=yerr1, kind="bar", ax=ax,color="green",position=0,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1),legend=False)
+    old.plot(x=x,y=y,yerr=yerr2,kind="bar",ax=ax2,color="purple",position=1,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1),legend=False)
     ax2.grid(False)
     ax2.get_yaxis().set_visible(False)
+    plt.savefig(type+'MeanNumTrials.pdf')
     plt.show()
 
+def create(type):
+    YoungTotal = getData(type,'Young')
+    OldTotal = getData(type,'Old')
+    df = pd.concat([YoungTotal,OldTotal])
 
-plot("Session", "Mean", "youngCI","oldCI",plotData)
+    grouped = df.groupby(['age'])
+    means = grouped.mean()
+    ci = grouped.aggregate(lambda x: st.sem(x) * 1.645) #90% confidence interval
+
+    plotData = pd.DataFrame()
+    plotData['Session'] = range(1,15)+range(1,15)
+    plotData['Age'] = ['Young' for i in range(1,15)]+['Old' for i in range(1,15)]
+    plotData['Mean'] = list(means.loc['Young']) + list(means.loc['Old'])
+    plotData['youngCI'] = list(ci.loc['Young']) + list(ci.loc['Young'])
+    plotData['oldCI'] = list(ci.loc['Old']) + list(ci.loc['Old'])
+    plot("Session", "Mean", "youngCI","oldCI",plotData,type)
+
+
+if __name__ == "__main__":
+    create('inbound')
+    create('outbound')
+
+
+
 
 
 
