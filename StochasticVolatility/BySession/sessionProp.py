@@ -57,10 +57,11 @@ tups = [x for y in zip([(i,"Young") for i in range(1,15)],[(i,"Old") for i in ra
 index = pd.MultiIndex.from_tuples(tups, names=['session', 'age'])
 
 
-def errplot(x, y, yerr1,yerr2, data):
+def plot(x, y, yerr1,yerr2, data):
     print plt.style.available
     plt.figure()
     plt.style.use('ggplot')
+    plt.ylabel("Number of Trials")
     ax = plt.gca()
     ax2 = ax.twinx()
     young = data[data['Age']=='Young']
@@ -72,8 +73,8 @@ def errplot(x, y, yerr1,yerr2, data):
     plt.show()
 
 
-errplot("Session", "Mean", "youngCI","oldCI",plotData)
-print 'test'
+plot("Session", "Mean", "youngCI","oldCI",plotData)
+
 
 
 
