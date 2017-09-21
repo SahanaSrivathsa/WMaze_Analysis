@@ -1,9 +1,7 @@
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
 from scipy import stats as st
-import seaborn as sns
-import numpy as np
+
 
 """
 This creates two plots:
@@ -12,15 +10,12 @@ This creates two plots:
 """
 
 def getData(anType,group):
-
     dir = '/Volumes/TRANS 1/BarnesLab/RawData/Processed Data/'
     data_total = pd.read_csv(dir + anType + group + 'Denom.csv').iloc[:,1:]# csv of total trials for each day
-    out = data_total
-    out['age'] = group
-    return out
+    data_total['age'] = group
+    return data_total
 
 def plot(x, y, yerr1,yerr2, data,type):
-    print plt.style.available
     plt.figure()
     plt.style.use('ggplot')
     plt.ylabel("Number of Trials")
@@ -28,8 +23,10 @@ def plot(x, y, yerr1,yerr2, data,type):
     ax2 = ax.twinx()
     young = data[data['Age']=='Young']
     old = data[data['Age'] == 'Old']
-    young.plot(x=x, y=y, yerr=yerr1, kind="bar", ax=ax,color="green",position=0,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1),legend=False)
-    old.plot(x=x,y=y,yerr=yerr2,kind="bar",ax=ax2,color="purple",position=1,width=0.25,error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1),legend=False)
+    young.plot(x=x, y=y, yerr=yerr1, kind="bar", ax=ax,color="green",position=0,width=0.25,
+               error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1),legend=False)
+    old.plot(x=x,y=y,yerr=yerr2,kind="bar",ax=ax2,color="purple",position=1,width=0.25,
+             error_kw=dict(ecolor='black', lw=1, capsize=2, capthick=1),legend=False)
     ax2.grid(False)
     ax2.get_yaxis().set_visible(False)
     plt.savefig(type+'MeanNumTrials.pdf')
