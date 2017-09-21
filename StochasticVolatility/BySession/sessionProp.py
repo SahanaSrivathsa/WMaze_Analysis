@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 from scipy import stats as st
 import seaborn as sns
@@ -56,12 +57,18 @@ index = pd.MultiIndex.from_tuples(tups, names=['session', 'age'])
 
 
 def errplot(x, y, yerr, data):
+    print plt.style.available
+    plt.figure()
+    plt.style.use('ggplot')
     ax = plt.gca()
     ax2 = ax.twinx()
     young = data[data['Age']=='Young']
     old = data[data['Age'] == 'Old']
-    young.plot(x=x, y=y, yerr=yerr, kind="bar", ax=ax,color="green",position=0,width=0.2)
-    old.plot(x=x,y=y,yerr=yerr,kind="bar",ax=ax2,color="purple",position=1,width=0.2)
+    young.plot(x=x, y=y, yerr=yerr, kind="bar", ax=ax,color="green",position=0,width=0.4)
+    old.plot(x=x,y=y,yerr=yerr,kind="bar",ax=ax2,color="purple",position=1,width=0.4)
+    # Turns off grid on the left Axis.
+    ax2.grid(False)
+    # Turns off grid on the secondary (right) Axis.
     plt.show()
 
 
