@@ -191,6 +191,7 @@ if __name__ == "__main__":
     plt.ylabel('Certainty')
     plt.xlabel('Session')
     plt.axhline(0.95)
+    plt.ylim(0,1)
     plt.savefig(anType + 'PrDiffBIN.pdf')
 
     rename(anType)
