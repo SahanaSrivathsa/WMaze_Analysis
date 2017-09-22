@@ -24,18 +24,18 @@ def tinvlogit(x):
 # plotting -------------------------------------------
 
 rcParams['figure.figsize'] = 15, 10
-font = {'size': 16}
+font = {'size': 14}
 matplotlib.rc('font', **font)
 
 def plot_results(fit, fig_no, sub_no, group):
 
     if group == 'Young':
-        color = '#09933'
-        dcolor = 'green'
+        color = 'green'
+        dcolor = '#006600'
         yv = 0.2
     else:
-        color = 'purple'
-        dcolor = '#9900cc'
+        color = '#9999ff'
+        dcolor = 'purple'
         yv = 0.1
 
     plt.figure(fig_no)
@@ -69,7 +69,7 @@ def plot_results(fit, fig_no, sub_no, group):
     plt.legend(loc='lower right', prop={'size': 10})
     plt.text(300, yv, group + ' learning session  ' + str(learning_trial))
     plt.ylim(0, 1.05)
-    plt.xlim(0,14)
+    plt.xlim(1,14)
     plt.tight_layout()
     plt.savefig(group + str(fig_no) + '.pdf')
     return learning_trial
