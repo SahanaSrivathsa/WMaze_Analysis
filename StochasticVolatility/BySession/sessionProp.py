@@ -18,19 +18,25 @@ def plot(anType):
     odata = getData(anType,'Old')
     plt.figure()
     plt.style.use('ggplot')
+    omean = list(ydata.mean())[0:3]
+    for k in list(odata.mean())[3:]:
+        omean.append(k)
+    ymean = list(odata.mean())[0:3]
+    for l in list(ydata.mean())[3:]:
+        ymean.append(l)
     for row in range(0,len(ydata)):
-        x = range(1, 15)
+        x = range(1, 22)
         yy = ydata.iloc[row]
         plt.plot(x,yy,color='g',alpha = 0.3)
-    plt.plot(x,list(ydata.mean()),color='g',lw=2)
+    plt.plot(x,ymean,color='g',lw=2)
     for row in range(0,len(odata)):
-        x = range(1, 15)
+        x = range(1, 22)
         oy = odata.iloc[row]
         plt.plot(x,oy,color='purple',alpha = 0.3)
-    plt.plot(x,list(odata.mean()),color='purple',lw=2)
+    plt.plot(x,omean,color='purple',lw=2)
     plt.xlabel('Session')
     plt.ylabel('Proportion Correct')
-    plt.xlim([1,14])
+    plt.xlim([1,21])
     plt.ylim([0,1])
     green_patch = mpatches.Patch(color='green', label='Young')
     purple_patch = mpatches.Patch(color='purple', label='Old')

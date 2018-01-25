@@ -42,8 +42,8 @@ def create(type):
     ci = grouped.aggregate(lambda x: st.sem(x) * 1.645) #90% confidence interval
 
     plotData = pd.DataFrame()
-    plotData['Session'] = range(1,15)+range(1,15)
-    plotData['Age'] = ['Young' for i in range(1,15)]+['Old' for i in range(1,15)]
+    plotData['Session'] = range(1,22)+range(1,22)
+    plotData['Age'] = ['Young' for i in range(1,22)]+['Old' for i in range(1,22)]
     plotData['Mean'] = list(means.loc['Young']) + list(means.loc['Old'])
     plotData['youngCI'] = list(ci.loc['Young']) + list(ci.loc['Young'])
     plotData['oldCI'] = list(ci.loc['Old']) + list(ci.loc['Old'])

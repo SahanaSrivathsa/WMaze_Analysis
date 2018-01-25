@@ -11,7 +11,7 @@ rats = list(df['RAT'])
 
 def get_data(rat):
     dataDir = baseDir + rat + "/TimeStamps/"
-    files = ['TimeStamps_{1}_Session{2}.csv'.format(baseDir,rat,session) for session in range(1,15)]
+    files = ['TimeStamps_{1}_Session{2}.csv'.format(baseDir,rat,session) for session in range(1,22)]
     newDir = baseDir + "Processed Data/" + rat +"/"
     session = 1
     trial = 1
@@ -25,7 +25,7 @@ def get_data(rat):
 
         for csv in files:
             lines = []
-            if session == 15:
+            if session == 22:
                 break
             with open(dataDir + csv,'r') as f:
                 data = f.readlines()

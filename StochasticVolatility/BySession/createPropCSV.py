@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 
+sessionNum = 14
 df = pd.read_csv('/Users/adelekap/Documents/WMaze_Analysis/pandas_viz/rats.csv') #Path to rats.csv
 oldRats = list(df[df['AGE'] == 25]['RAT'])
 youngRats = list(df[df['AGE'] == 10]['RAT'])
@@ -88,8 +89,10 @@ def runFix(fileList,type,newFileList):
             lines = read.readlines()
 
         with open(newFileList[index],'w') as write:
-            write.write('0,1,2,3,4,5,6,7,8,9,10,11,12,13,14\n')
-
+            if sessionNum == 21:
+                write.write('0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21\n')
+            if sessionNum == 14:
+                write.write('0,1,2,3,4,5,6,7,8,9,10,11,12,13,14\n')
             for line in lines:
                 if line != lines[0]:
                     write.write(value + ',' + line[6:])

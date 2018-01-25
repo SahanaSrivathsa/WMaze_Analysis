@@ -15,6 +15,8 @@ Anne Smith, April, 2017
 Edits - Adele Kapellusch, July 2017
 """
 
+#-outbound 0.01-10.0 0.01-1.0
+#-inbound 0.01-10.0 0.01-1.0
 
 def tinvlogit(x):
     import theano.tensor as t
@@ -24,8 +26,10 @@ def tinvlogit(x):
 # plotting -------------------------------------------
 
 rcParams['figure.figsize'] = 15, 10
-font = {'size': 14}
+font = {'size': 17}
 matplotlib.rc('font', **font)
+matplotlib.rc('xtick', labelsize=15)
+matplotlib.rc('ytick', labelsize=15)
 
 def plot_results(fit, fig_no, sub_no, group):
 
@@ -37,8 +41,6 @@ def plot_results(fit, fig_no, sub_no, group):
         color = '#9999ff'
         dcolor = 'purple'
         yv = 0.1
-
-    plt.figure(fig_no)
 
     if fig_no < 3 and group == 'Young':
         plt.subplot(4,4,sub_no)
@@ -66,11 +68,11 @@ def plot_results(fit, fig_no, sub_no, group):
 
     plt.xlabel('Session')
     plt.ylabel('Pr(correct)')
-    plt.legend(loc='lower right', prop={'size': 10})
+    plt.legend(loc='lower right', prop={'size': 20})
     plt.text(300, yv, group + ' learning session  ' + str(learning_trial))
     plt.ylim(0, 1.05)
-    plt.xlim(1,14)
-    plt.tight_layout()
+    plt.xlim(1,21)
+    # plt.tight_layout()
     plt.savefig(group + str(fig_no) + '.pdf')
     return learning_trial
 
@@ -142,6 +144,8 @@ def main(group,anType):
 
     print "|||||||||||Completed Analysis for " + group + " data|||||||||||||"
     summary_dataset = np.percentile(trace1['p'], [5, 50, 95], axis=0)
+    with open('{0}{1}DATASET.txt'.format(group,anType), 'w') as data:
+        data.write(str(np.asarray(summary_dataset)))
     plot_results(np.asarray(summary_dataset), 3, 2, group)
     return trace1['p']
 
@@ -184,9 +188,16 @@ if __name__ == "__main__":
 
     overall = ((r1 - r2) > 0).sum() / float(r1.shape[1])
 
+    with open('{0}certainty.txt'.format(anType),'w') as c:
+        c.write(str(prop_higher))
+
     print 'overall ', overall
     plt.figure(20)
-    plt.plot(prop_higher, lw=2)
+    font = {'size': 17}
+    matplotlib.rc('font', **font)
+    matplotlib.rc('xtick', labelsize=15)
+    matplotlib.rc('ytick', labelsize=15)
+    plt.plot(prop_higher, lw=4)
     plt.title('Pr(Young > Old)')
     plt.ylabel('Certainty')
     plt.xlabel('Session')
