@@ -23,60 +23,6 @@ def tinvlogit(x):
     return t.exp(x) / (1 + t.exp(x))
 
 
-# plotting -------------------------------------------
-
-rcParams['figure.figsize'] = 15, 10
-font = {'size': 17}
-matplotlib.rc('font', **font)
-matplotlib.rc('xtick', labelsize=15)
-matplotlib.rc('ytick', labelsize=15)
-
-# def plot_results(fit, fig_no, sub_no, group):
-#
-#     if group == 'Young':
-#         color = 'green'
-#         dcolor = '#006600'
-#         yv = 0.2
-#     else:
-#         color = '#9999ff'
-#         dcolor = 'purple'
-#         yv = 0.1
-#
-#     if fig_no < 3 and group == 'Young':
-#         plt.subplot(4,4,sub_no)
-#     elif fig_no <3 and group == 'Old':
-#         plt.subplot(4,3,sub_no)
-#
-#     else:
-#         plt.subplot(1, 1, 1)
-#
-#
-#     plt.fill_between(np.arange(fit.shape[1]), fit[0, :], fit[2, :],
-#                      facecolor=color, alpha=0.5)
-#     if group == 'Young':
-#         plt.plot(fit[1, :], c=dcolor, alpha=1.0, lw=3, label='Young')
-#     else:
-#         plt.plot(fit[1, :], c=dcolor, alpha=1.0, lw=3, label='Old')
-#
-#     plt.axhline(0.5, color='red', linestyle='-', label='chance = 0.5')
-#
-#     last_time_below_threshold = np.where(fit[0, :] < 0.5)[-1]
-#     if not last_time_below_threshold.any():  # always above
-#         learning_trial = 1
-#     else:
-#         learning_trial = last_time_below_threshold[-1] + 2  # +2 to account for zero start and above line
-#
-#     plt.xlabel('Session')
-#     plt.ylabel('Pr(correct)')
-#     plt.legend(loc='lower right', prop={'size': 20})
-#     plt.text(300, yv, group + ' learning session  ' + str(learning_trial))
-#     plt.ylim(0, 1.05)
-#     plt.xlim(1,21)
-#     # plt.tight_layout()
-#     plt.savefig(group + str(fig_no) + '.pdf')
-#     return learning_trial
-
-
 ###main code----------------------------------------------------
 
 def main(group,anType,sessionNum):

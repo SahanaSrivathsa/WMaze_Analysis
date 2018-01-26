@@ -21,14 +21,21 @@ from   random import *
 
 reload(ff)
 
+def learningTrial(lowConf):
+	current_session = 1
+	for val in lowConf:
+		if val > 0.5:
+			return current_session
+		else:
+			current_session += 1
+	return None
+
 
 ################################
-def RunEM(df):
-
-	startflag  = 0
+def RunEM(df,sn,age,num,type,last=False):
+	dir = '/Users/adelekap/Documents/WMaze_Analysis/Paper/plots/indivSS/{0}Sessions/{1}/{2}/'.format(str(sn),age,type)
 	sigma2e    = 0.5**2 #start guess
 	sigma_init = sigma2e
-
 	p_init     = 0.5 #xx[0:2].mean()
 	x_init     = 0.0
 
@@ -44,46 +51,64 @@ def RunEM(df):
 	
 	print sigma2e
 	pmode, p, pll, pul       = ff.TransformToProb(x_post, sigma2_post, mu)
-	
+	pmode = list(pmode)
+	pmode = [pmode[0]]+pmode
 
-	fig         = plt.figure(0)
-	ccc = 'b'
-	plt.plot(pmode,  linestyle = '-', color= 'r', alpha=0.9,lw=2)
-	plt.plot(pll, linestyle = '-', color= ccc, alpha=0.9,lw=3)
-	plt.plot(pul, linestyle = '-', color= ccc, alpha=0.9,lw=3)
-	plt.plot([0, len(p)], [0.5, 0.5], 'k-', lw=1, alpha=0.9)
-	plt.plot(range(1,len(df)+1), df['y']/df['N'],'-o')
+	with open('/Users/adelekap/Documents/WMaze_Analysis/Paper/data/ssLearningTrials_'+age+type+str(sn)+'.txt','a') as w:
+			w.write(str(learningTrial(pll))+',')
+
+	# plt.plot([0, len(p)], [0.5, 0.5], 'k-', lw=1, alpha=0.9, color='red')
+	if age == 'young':
+		plt.plot(pmode,  linestyle = '-', color= 'green', alpha=0.63,lw=2)
+	else:
+		plt.plot(pmode, linestyle='-', color='purple', alpha=0.63, lw=2)
+
 	plt.locator_params(axis = 'y', nbins = 3)
-	plt.ylim([0,1])
-	#plt.xlim([1,len(p)+1])
-	plt.show()
+	plt.xlim(1,sn)
+	plt.ylim(0,1)
+	plt.xlabel('Session')
+	plt.ylabel('Probability of Correct Response')
+	if last:
+		plt.plot([0, len(p)], [0.5, 0.5], 'k-', lw=1, alpha=0.9, color='red')
+		plt.savefig(dir+'all_.pdf'.format(age))
+		plt.show()
 	return
 
 ###############################
-def main():
-
+def main(sessionNum,anType,group):
 	df = pd.DataFrame()
+	dir = '/Users/adelekap/Documents/WMaze_Analysis/Paper/data/'
+	data_denom = pd.read_csv(
+		'{0}{1}Session/{2}{3}Denom.csv'.format(dir, str(sessionNum), anType,
+											   group))  # csv of total trials for each day
+	animalNum = len(data_denom)
+	data_denom = data_denom.transpose()
+	data_numAll = pd.read_csv(
+		'{0}{1}Session/{2}{3}Num.csv'.format(dir, str(sessionNum), anType, group)).transpose()  # correct per day
+	for n in range(animalNum):
+		tot_values = data_denom[n][1:]
+		resp_values = data_numAll[n][1:]
+		df['y'] = resp_values
+		df['N'] = tot_values
+		if n == animalNum-1 and group =='old':
+			RunEM(df, sessionNum, group, n, anType, True)
+		else:
+			RunEM(df, sessionNum, group, n, anType)
 
-	resp_values = [ 5. ,5. ,4. , 10. ,19. ,10., 13. ,8. , 12 ,15. , 6. ,8., 9.,
-	 10. ,10., 10., 7., 10., 5., 11., 10., 11., 15., 11., 18., 11.,
-	 25., 20., 22., 22., 16., 17., 18., 19., 26., 27., 29., 22., 25., 27.0 ,30.0]
-	tot_values = 30.0*np.ones(len(resp_values))
 
-	# resp_values = []
-	# for i in range(80):
-	#  	if i ==70: # pd_dum:
-	#  		resp_v = 0.0
-	#  	else:
-	#  		resp_v = 1.0
-	#  	resp_values.append(resp_v)
-
-	df['y'] = resp_values
-	df['N'] = tot_values
-	RunEM(df)
+		# RunEM(df,sessionNum,group,n,anType)
 
 
 if __name__ == '__main__':
-  main()
+  main(14,'inbound','young')
+  main(14,'inbound','old')
+  main(14, 'outbound', 'young')
+  main(14,'outbound','old')
+
+  main(21, 'inbound', 'young')
+  main(21, 'inbound', 'old')
+  main(21, 'outbound', 'young')
+  main(21, 'outbound', 'old')
 
 
 
