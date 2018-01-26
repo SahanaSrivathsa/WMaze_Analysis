@@ -1,0 +1,9 @@
+Paradigm,Age,Mean,Std
+Inbound14,young,3.0,1.17
+Inbound14,old,3.92,1.38
+Outbound14,young,8.38,2.0
+Outbound14,old,13.33,2.21
+Inbound21,young,3.5,0.95
+Inbound21,old,4.33,2.87
+Outbound21,young,8.33,1.80
+Outbound21,old,16.16,4.34
