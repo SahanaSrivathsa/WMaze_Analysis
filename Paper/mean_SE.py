@@ -51,13 +51,13 @@ def plot(allDATA):
     f, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
     sns.set(font_scale=1)
     sns.pointplot(x='Session',y='% Correct',data=allDATA[0],hue='Age',palette=sns.xkcd_palette(colors),
-                  capsize=0.1,errwidth=1.5,ax=ax1,scale=0.6)
+                  capsize=0.2,errwidth=1.2,ax=ax1,scale=0.6)
     sns.pointplot(x='Session', y='% Correct', data=allDATA[1], hue='Age', palette=sns.xkcd_palette(colors),
-                  capsize=0.1, errwidth=1.5, ax=ax2,scale=0.6)
+                  capsize=0.2, errwidth=1.2, ax=ax2,scale=0.6)
     sns.pointplot(x='Session', y='% Correct', data=allDATA[2], hue='Age', palette=sns.xkcd_palette(colors),
-                  capsize=0.1, errwidth=1.5, ax=ax3,scale=0.6)
+                  capsize=0.2, errwidth=1.2, ax=ax3,scale=0.6)
     sns.pointplot(x='Session', y='% Correct', data=allDATA[3], hue='Age', palette=sns.xkcd_palette(colors),
-                  capsize=0.1, errwidth=1.5, ax=ax4,scale=0.6)
+                  capsize=0.2, errwidth=1.2, ax=ax4,scale=0.6)
     ax1.legend_.remove()
     ax2.legend_.remove()
     ax3.legend_.remove()

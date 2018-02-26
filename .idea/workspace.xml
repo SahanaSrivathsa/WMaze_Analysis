@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1b51c8-976f-4683-9eb6-0214f16247ab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/all_old.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/all_young.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/mixedAnova.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/glm/14Sessions/inboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/glm/14Sessions/outboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/glm/21Sessions/inboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/glm/21Sessions/outboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/hierarchicalSS/14Sessions/inboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/hierarchicalSS/14Sessions/outboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/hierarchicalSS/21Sessions/inboundPlot.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Paper/plots/hierarchicalSS/21Sessions/outboundPlot.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/plots/propCorrect/propCorrect.pdf" afterPath="$PROJECT_DIR$/Paper/plots/propCorrect/propCorrect.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldinbound14.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldinbound14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldinbound21.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldinbound21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldoutbound14.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldoutbound14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldoutbound21.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_oldoutbound21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_younginbound14.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_younginbound14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_younginbound21.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_younginbound21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_youngoutbound14.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_youngoutbound14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/data/ssLearningTrials_youngoutbound21.txt" afterPath="$PROJECT_DIR$/Paper/data/ssLearningTrials_youngoutbound21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Paper/mean_SE.py" afterPath="$PROJECT_DIR$/Paper/mean_SE.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,10 +32,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphProportions.coverage" NAME="graphProportions Coverage Results" MODIFIED="1492734239424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$tTest.coverage" NAME="tTest Coverage Results" MODIFIED="1517010015727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$tTest.coverage" NAME="tTest Coverage Results" MODIFIED="1517010774464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$SplitData.coverage" NAME="SplitData Coverage Results" MODIFIED="1493314171310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$spread.coverage" NAME="spread Coverage Results" MODIFIED="1495061966928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_viz" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphErrorPercents.coverage" NAME="graphErrorPercents Coverage Results" MODIFIED="1492728651459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$repMeasANOVA.coverage" NAME="repMeasANOVA Coverage Results" MODIFIED="1519678449211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitOutandIn.coverage" NAME="splitOutandIn Coverage Results" MODIFIED="1500922521827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$runBothv2.coverage" NAME="runBothv2 Coverage Results" MODIFIED="1497907496301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$toArray.coverage" NAME="toArray Coverage Results" MODIFIED="1516984333925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
@@ -49,12 +68,13 @@
     <SUITE FILE_PATH="coverage/WMaze_Analysis$test.coverage" NAME="test Coverage Results" MODIFIED="1517002844896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper/data" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAgesOutIn.coverage" NAME="splitAgesOutIn Coverage Results" MODIFIED="1500921607177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitInOut.coverage" NAME="splitInOut Coverage Results" MODIFIED="1500922272920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$meanLearningGraph.coverage" NAME="meanLearningGraph Coverage Results" MODIFIED="1519664014132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$heatmapDatetime.coverage" NAME="heatmapDatetime Coverage Results" MODIFIED="1492797695610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphOldTimes.coverage" NAME="graphOldTimes Coverage Results" MODIFIED="1492738599092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$overallDecisions.coverage" NAME="overallDecisions Coverage Results" MODIFIED="1493524285816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$TransformData.coverage" NAME="TransformData Coverage Results" MODIFIED="1509480100205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrelimProcessing" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$splitAges.coverage" NAME="splitAges Coverage Results" MODIFIED="1497902095299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGroup" />
-    <SUITE FILE_PATH="coverage/WMaze_Analysis$mean_SE.coverage" NAME="mean_SE Coverage Results" MODIFIED="1517008636836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
+    <SUITE FILE_PATH="coverage/WMaze_Analysis$mean_SE.coverage" NAME="mean_SE Coverage Results" MODIFIED="1519248937191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Paper" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$graphYoungTimes.coverage" NAME="graphYoungTimes Coverage Results" MODIFIED="1492738617198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WMaze_Analysis$avgNumTrials.coverage" NAME="avgNumTrials Coverage Results" MODIFIED="1509569801807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StochasticVolatility/BySession" />
   </component>
@@ -66,8 +86,8 @@
       <file leaf-file-name="mean_SE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Paper/mean_SE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -75,13 +95,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tTest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Paper/tTest.py">
+      <file leaf-file-name="repMeasANOVA.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Paper/repMeasANOVA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="389">
+              <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_anova.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/site-packages/pyvttbl/stats/_anova.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="1875" column="0" lean-forward="false" selection-start-line="1875" selection-start-column="0" selection-end-line="1875" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/site-packages/pyvttbl/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="2279" column="0" lean-forward="false" selection-start-line="2279" selection-start-column="0" selection-end-line="2279" selection-end-column="0" />
+              <folding>
+                <marker date="1517010526000" expanded="true" signature="19810:19835" ph="drop table i... " />
+                <marker date="1517010526000" expanded="true" signature="20097:20122" ph="insert into GTBL... " />
+                <marker date="1517010526000" expanded="true" signature="20385:20411" ph="select missi... GTBL" />
+                <marker date="1517010526000" expanded="true" signature="22513:22538" ph="drop table i... " />
+                <marker date="1517010526000" expanded="true" signature="22800:22825" ph="insert into TBL2... " />
+                <marker date="1517010526000" expanded="true" signature="23358:23382" ph="drop table i... " />
+                <marker date="1517010526000" expanded="true" signature="23456:23486" ph="alter table TBL2... " />
+                <marker date="1517010526000" expanded="true" signature="23610:23634" ph="drop table i... " />
+                <marker date="1517010526000" expanded="true" signature="25377:25421" ph="insert into TBL... " />
+                <marker date="1517010526000" expanded="true" signature="25393:25421" ph="select missi... TBL2" />
+                <marker date="1517010526000" expanded="true" signature="25591:25616" ph="drop table i... " />
+                <marker date="1517010526000" expanded="true" signature="31113:31131" ph="select missi... TBL" />
+                <marker date="1517010526000" expanded="true" signature="38621:38645" ph="select missi... TBL" />
+                <marker date="1517010526000" expanded="true" signature="38818:38851" ph="select missi... TBL" />
+                <marker date="1517010526000" expanded="true" signature="39693:39726" ph="select missi... TBL" />
+                <marker date="1517010526000" expanded="true" signature="43463:43480" ph="select * fro... TBL" />
+                <marker date="1517010526000" expanded="true" signature="46313:46340" ph="select * fro... TBL" />
+                <marker date="1517010526000" expanded="true" signature="47747:47764" ph="select * fro... TBL" />
+                <marker date="1517010526000" expanded="true" signature="48191:48208" ph="select * fro... TBL" />
+                <marker date="1517010526000" expanded="true" signature="58009:58026" ph="select * fro... TBL" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/site-packages/numpy/core/_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meanLearningGraph.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Paper/meanLearningGraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="101" column="16" lean-forward="false" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,9 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/graphYoungCorrectTime.py" />
-        <option value="$PROJECT_DIR$/graphTimeAtCenterCorrect.py" />
-        <option value="$PROJECT_DIR$/graphTimeAtCenterIncorrect.py" />
         <option value="$PROJECT_DIR$/graphOldTimes.py" />
         <option value="$PROJECT_DIR$/perseveration.py" />
         <option value="$PROJECT_DIR$/heatmapDatetime.py" />
@@ -185,8 +265,11 @@
         <option value="$PROJECT_DIR$/Paper/data/test.py" />
         <option value="$PROJECT_DIR$/Paper/FiltersEM.py" />
         <option value="$PROJECT_DIR$/Paper/TestEM.py" />
-        <option value="$PROJECT_DIR$/Paper/mean_SE.py" />
         <option value="$PROJECT_DIR$/Paper/tTest.py" />
+        <option value="$PROJECT_DIR$/Paper/mixedAnova.py" />
+        <option value="$PROJECT_DIR$/Paper/mean_SE.py" />
+        <option value="$PROJECT_DIR$/Paper/meanLearningGraph.py" />
+        <option value="$PROJECT_DIR$/Paper/repMeasANOVA.py" />
       </list>
     </option>
   </component>
@@ -241,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tTest">
+  <component name="RunManager" selected="Python.repMeasANOVA">
     <configuration name="TestEM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -473,6 +556,24 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration name="meanLearningGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Paper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WMaze_Analysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Paper/meanLearningGraph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="mean_SE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -491,7 +592,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="plotting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="repMeasANOVA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -504,7 +605,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WMaze_Analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Paper/plotting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Paper/repMeasANOVA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -527,38 +628,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Paper/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WMaze_Analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Paper/data/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.plotting" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TestEM" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mean_SE" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TestEM" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mean_SE" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.repMeasANOVA" />
+      <item index="4" class="java.lang.String" itemvalue="Python.meanLearningGraph" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mean_SE" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TestEM" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plotting" />
+        <item index="0" class="java.lang.String" itemvalue="Python.repMeasANOVA" />
+        <item index="1" class="java.lang.String" itemvalue="Python.meanLearningGraph" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mean_SE" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TestEM" />
       </list>
     </recent_temporary>
   </component>
@@ -583,14 +666,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39466667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -684,47 +767,45 @@
           <line>46</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Paper/meanLearningGraph.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Paper/repMeasANOVA.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python2.7/site-packages/pyvttbl/stats/_anova.py</url>
+          <line>1588</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python2.7/site-packages/pyvttbl/stats/_anova.py</url>
+          <line>1589</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python2.7/site-packages/pyvttbl/stats/_anova.py</url>
+          <line>1875</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Paper/repMeasANOVA.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="242" />
+      <option name="time" value="269" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonGroup/changeData.py" />
-    <entry file="file://$PROJECT_DIR$/PrelimProcessing/SplitData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrelimProcessing/combinePerformance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/splitAgesOutIn.py" />
-    <entry file="file://$PROJECT_DIR$/PythonGroup/BySession/createPropCSV.py" />
-    <entry file="file:///Library/Python/2.7/site-packages/pandas/io/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PrelimProcessing/splitInOut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGroup/splitOutandIn.py" />
     <entry file="file://$PROJECT_DIR$/StochasticVolatility/renameFiles.py" />
     <entry file="file://$PROJECT_DIR$/PlotlyPlots/perseveration.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7515">
           <caret line="513" column="0" lean-forward="false" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="49" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
           <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="1575" column="0" lean-forward="false" selection-start-line="1575" selection-start-column="0" selection-end-line="1575" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="1471" column="0" lean-forward="false" selection-start-line="1471" selection-start-column="0" selection-end-line="1471" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="3120" column="0" lean-forward="false" selection-start-line="3120" selection-start-column="0" selection-end-line="3120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="112" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="672" column="0" lean-forward="false" selection-start-line="672" selection-start-column="0" selection-end-line="672" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,9 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="115" column="20" lean-forward="false" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,9 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1172">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="242" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,25 +1055,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-319">
           <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Paper/data/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Paper/data/test.py" />
     <entry file="file://$PROJECT_DIR$/Paper/FiltersEM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,22 +1083,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Paper/mixedAnova.py" />
+    <entry file="file://$PROJECT_DIR$/Paper/tTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="3613" column="0" lean-forward="false" selection-start-line="3613" selection-start-column="0" selection-end-line="3613" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/pandas/core/reshape/concat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Paper/meanLearningGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="101" column="16" lean-forward="false" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Paper/mean_SE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Paper/tTest.py">
+    <entry file="file:///usr/local/lib/python2.7/site-packages/pyvttbl/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="2279" column="0" lean-forward="false" selection-start-line="2279" selection-start-column="0" selection-end-line="2279" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1517010526000" expanded="true" signature="19810:19835" ph="drop table i... " />
+            <marker date="1517010526000" expanded="true" signature="20097:20122" ph="insert into GTBL... " />
+            <marker date="1517010526000" expanded="true" signature="20385:20411" ph="select missi... GTBL" />
+            <marker date="1517010526000" expanded="true" signature="22513:22538" ph="drop table i... " />
+            <marker date="1517010526000" expanded="true" signature="22800:22825" ph="insert into TBL2... " />
+            <marker date="1517010526000" expanded="true" signature="23358:23382" ph="drop table i... " />
+            <marker date="1517010526000" expanded="true" signature="23456:23486" ph="alter table TBL2... " />
+            <marker date="1517010526000" expanded="true" signature="23610:23634" ph="drop table i... " />
+            <marker date="1517010526000" expanded="true" signature="25377:25421" ph="insert into TBL... " />
+            <marker date="1517010526000" expanded="true" signature="25393:25421" ph="select missi... TBL2" />
+            <marker date="1517010526000" expanded="true" signature="25591:25616" ph="drop table i... " />
+            <marker date="1517010526000" expanded="true" signature="31113:31131" ph="select missi... TBL" />
+            <marker date="1517010526000" expanded="true" signature="38621:38645" ph="select missi... TBL" />
+            <marker date="1517010526000" expanded="true" signature="38818:38851" ph="select missi... TBL" />
+            <marker date="1517010526000" expanded="true" signature="39693:39726" ph="select missi... TBL" />
+            <marker date="1517010526000" expanded="true" signature="43463:43480" ph="select * fro... TBL" />
+            <marker date="1517010526000" expanded="true" signature="46313:46340" ph="select * fro... TBL" />
+            <marker date="1517010526000" expanded="true" signature="47747:47764" ph="select * fro... TBL" />
+            <marker date="1517010526000" expanded="true" signature="48191:48208" ph="select * fro... TBL" />
+            <marker date="1517010526000" expanded="true" signature="58009:58026" ph="select * fro... TBL" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/pyvttbl/stats/_anova.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1875" column="0" lean-forward="false" selection-start-line="1875" selection-start-column="0" selection-end-line="1875" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Paper/repMeasANOVA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
